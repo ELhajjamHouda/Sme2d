@@ -49,7 +49,7 @@ const HeaderOne = () => {
   };
   return (
     <>
-      <header className="nav-header header-layout1">
+      <header className="nav-header header-layout1 ">
         <div className="header-top">
           <div className="container">
             <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
@@ -103,7 +103,7 @@ const HeaderOne = () => {
           <div className="menu-area">
             <div className="header-navbar-logo">
               <Link href="/">
-                <img src="assets/img/logo-white.svg" alt="Fixturbo" />
+                <img src="assets/img/logo-white.svg" alt="sme2d" />
               </Link>
             </div>
             <div className="container">
@@ -111,7 +111,7 @@ const HeaderOne = () => {
                 <div className="col-auto d-xl-none d-block">
                   <div className="header-logo">
                     <Link href="/">
-                      <img src="assets/img/logo-white.svg" alt="Fixturbo" />
+                      <img src="assets/img/logo-white.svg" alt="sme2d" />
                     </Link>
                   </div>
                 </div>
@@ -152,16 +152,16 @@ const HeaderOne = () => {
                             <Link href="/service">Épuration Des Eaux Usées</Link>
                           </li>
                           <li>
-                            <Link href="/service-details">Relevage et Pompage des Eaux</Link>
+                            <Link href="/relevage-et-pompage-des-eaux">Relevage et Pompage des Eaux</Link>
                           </li>
                             <li>
-                            <Link href="/service-details">Traitement de l'air</Link>
+                            <Link href="/traitement-de-l-air">Traitement de l'air</Link>
                           </li>
                             <li>
-                            <Link href="/service-details">Électricité et Automatisme</Link>
+                            <Link href="/electricite-et-automatisme">Électricité et Automatisme</Link>
                           </li>
                             <li>
-                            <Link href="/service-details">Service après-vente et exploitation</Link>
+                            <Link href="/service-apres-vente-et-exploitation">Service après-vente et exploitation</Link>
                           </li>
                             <li>
                             <Link href="/bureau-d-etudes-integre">Bureau d’études intégré</Link>
@@ -172,12 +172,12 @@ const HeaderOne = () => {
                         <Link href="#">Projects</Link>
                         <ul className="sub-menu">
                           <li>
-                            <Link href="/project">Projects</Link>
+                            <Link href="#">Projects</Link> 
+                            {/* /project */}
                           </li>
                           <li>
-                            <Link href="/project-details">
-                              Projects Details
-                            </Link>
+                            <Link href="#">  Projects Details </Link>
+                            {/* /project-details */}
                           </li>
                         </ul>
                       </li>
@@ -185,10 +185,12 @@ const HeaderOne = () => {
                         <Link href="#">Actualités</Link>
                         <ul className="sub-menu">
                           <li>
-                            <Link href="/blog">Blog</Link>
+                            <Link href="#">Blog</Link>
+                            {/* /blog */}
                           </li>
                           <li>
-                            <Link href="/blog-details">Blog Details</Link>
+                            <Link href="#">Blog Details</Link>
+                            {/* /blog-details */}
                           </li>
                         </ul>
                       </li>
@@ -236,7 +238,7 @@ const HeaderOne = () => {
                 </div>
                 <div className="col-auto ms-auto d-xl-block d-none">
                   <div className="navbar-right-desc">
-                    <img src="assets/img/icon/chat.svg" alt="Fixturbo" />
+                    <img src="assets/img/icon/chat.svg" alt="sme2d" />
                     <div className="navbar-right-desc-details">
                       <h6 className="title">Besoin d'aide</h6>
                       <Link className="link" href="tel:+2590256215">
@@ -256,7 +258,7 @@ const HeaderOne = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link href="/">
-                <img src="assets/img/logo.svg" alt="Fixturbo" />
+                <img src="assets/img/logo.svg" alt="sme2d" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

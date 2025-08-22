@@ -13,7 +13,7 @@ const FooterAreaTwo = () => {
         <div className="footer-top-2">
           <div className="footer-logo">
             <Link href="/">
-              <img src="assets/img/logo-white.jpg" alt="Fixturbo" />
+              <img src="assets/img/logo-white.jpg" alt="sme2d" />
             </Link>
           </div>
           <h3 className="footer-top-title text-white">

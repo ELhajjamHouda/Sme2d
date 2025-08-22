@@ -54,8 +54,8 @@ const page = () => {
       {/* Subscribe One */}
       <SubscribeOne />
 
-      {/* Footer Area One */}
-      <FooterAreaTwo />
+      {/* Footer Area One 
+      <FooterAreaTwo /> */}
     </>
   );
 };

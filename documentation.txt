@@ -1,5 +1,5 @@
 
-Project: Fixturbo
+Project: sme2d
 Description: This is a Next.js project bootstrapped with create-next-app.
 
 ## Project Structure

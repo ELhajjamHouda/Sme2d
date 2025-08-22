@@ -1,20 +1,21 @@
 import AboutTwo from "@/components/AboutTwo";
 import AppointmentAreaTwo from "@/components/AppointmentAreaTwo";
 import BlogAreaTwo from "@/components/BlogAreaTwo";
-//import CTAAreaTwo from "@/components/CTAAreaTwo";
-//import ClientAreaTwo from "@/components/ClientAreaTwo";
+import CTAAreaTwo from "@/components/CTAAreaTwo";
+import ClientAreaTwo from "@/components/ClientAreaTwo";
 import CounterTwo from "@/components/CounterTwo";
 import FaqAreaTwo from "@/components/FaqAreaTwo";
 import FooterAreaTwo from "@/components/FooterAreaTwo";
 import HeaderOne from "@/components/HeaderOne";
 import HeroTwo from "@/components/HeroTwo";
 import PortfolioTwo from "@/components/PortfolioTwo";
-//import PricingPlanTwo from "@/components/PricingPlanTwo";
-//import ProcessAreaTwo from "@/components/ProcessAreaTwo";
+import PricingPlanTwo from "@/components/PricingPlanTwo";
+import ProcessAreaTwo from "@/components/ProcessAreaTwo";
 import ServiceAreaTwo from "@/components/ServiceAreaTwo";
-//import TeamAreaTwo from "@/components/TeamAreaTwo";
+import TeamAreaTwo from "@/components/TeamAreaTwo";
 import WhyChooseUsOne from "@/components/WhyChooseUsOne";
 import Preloader from "@/helper/Preloader";
+import ProcessAreaOne from "@/components/ProcessAreaOne";
 
 export const metadata = {
   title: "Home || Fixturbo - Car Repair & Auto Services NEXT Js Template",
@@ -38,19 +39,24 @@ const page = () => {
       {/* Service Area Two */}
       <ServiceAreaTwo />
 
-      {/* About Two */}
-      <div className="about-area-2 bg-smoke"> 
+      {/* About Two// about-area-2 bg-smoke  */}
+      <div className="about-area-2 bg-custom"> 
         <AboutTwo />
       </div>
 
       {/* Counter Two */}
       <CounterTwo />
 
+    {/* Portfolio Two */}
       {/* Portfolio Two */}
       <PortfolioTwo />
 
       {/* Why Choose Us One */}
       <WhyChooseUsOne />
+      
+      {/* Process Area One ****/}
+      <ProcessAreaOne />
+
 
       {/* Process Area Two 
       <ProcessAreaTwo />

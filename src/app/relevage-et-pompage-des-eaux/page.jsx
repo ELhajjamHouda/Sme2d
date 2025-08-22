@@ -1,43 +1,59 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FooterAreaTwo from "@/components/FooterAreaTwo";
 import HeaderOne from "@/components/HeaderOne";
-///import HeaderOne from "@/components/HeaderOne";
 import ServiceDetails from "@/components/ServiceDetails";
 import SubscribeOne from "@/components/SubscribeOne";
 import Preloader from "@/helper/Preloader";
 
 export const metadata = {
-  title: "Service Details || Fixturbo - Car Repair & Auto Services NEXT Js Template",
+  title: "Relevage et Pompage des Eaux || Conception, Fabrication & Installation - SME2D",
   description:
-    "Fixturbo is a clean and modern React Template suitable for any type of Auto Servicing, Car Repair & Maintenance website. It is created for automobile servicing providers who offer car wash, car service, routine maintenance, truck service, etc. This HTML template can be used for car servicing, car repairing, car wash, auto shop, mechanic shop, batteries shop, tire / wheel shop, and multipurpose businesses. We have used comment on codes and also decorated the codes beautifully so one can find it very easy to customize.",
+    "SME2D conçoit, fabrique et installe des systèmes complets de relevage et de pompage des eaux, avec tuyauteries sur mesure jusqu’à 1400 mm de diamètre, intégration des pompes et montage électromécanique. Garantissez performance et fiabilité avec nos solutions clé en main."
 };
 
-
-const page = () => {
+const Page = () => {
   return (
     <>
-{/* Preloader */}
-<Preloader />
+      {/* Header 
+      <HeaderOne /> */}
 
-{/* Header one */}
-<HeaderOne />
+      {/* Breadcrumb */}
+      <Breadcrumb
+        title="Relevage et pompage des eaux"
+        imageHeader="url(assets/img/hero/relevage-et-pompage-des-eaux.png)"
+      />
 
-{/* Header one 
-<HeaderOne />*/}
+      {/* Service Details */}
+      <ServiceDetails
+        Title1="Relevage et pompage des eaux"
+       Para1={
+        <>
+          <p>
+            <strong>SME2D</strong> conçoit, fabrique et installe des <strong>systèmes complets de relevage et de pompage des eaux</strong>, adaptés à tous types d’ouvrages hydrauliques. Notre expertise couvre l’ensemble du processus, de l’étude à la mise en service, pour garantir des solutions sur mesure et durables.
+          </p>
 
-{/* Breadcrumb */}
-<Breadcrumb title={"Service Details"} />
+          <p>
+            Nous réalisons des <strong>réseaux de tuyauteries</strong> en acier galvanisé ou inox, avec des <strong>diamètres allant jusqu’à 1400 mm</strong>. Nos fabrications incluent des éléments spécifiques tels que <strong>collecteurs</strong>, <strong>coudes</strong>, <strong>Té</strong> et <strong>pièces spéciales</strong>, conçus selon les contraintes techniques de chaque projet.
+          </p>
 
-{/* Service Details */}
-<ServiceDetails />
+          <p>
+            Nos équipes assurent également l’<strong>intégration des pompes</strong>, le <strong>montage électromécanique</strong> ainsi que les <strong>raccordements hydrauliques</strong>. Chaque installation est minutieusement <strong>testée</strong> et <strong>mise en service</strong> afin de garantir un fonctionnement optimal et une parfaite conformité aux exigences de nos clients.
+          </p>
+        </>
+      }
 
-{/* Subscribe One */}
-<SubscribeOne />
+        Img1="assets/img/service/relevage-et-pompage-des-eaux_1.png"
+        Img2="assets/img/service/relevage-et-pompage-des-eaux-2.png"
+        Img3="assets/img/service/relevage-et-pompage-des-eaux-3.png"
+      />
 
-{/* Footer Area One */}
-<FooterAreaTwo />
+      {/* Subscribe Section */}
+      <SubscribeOne />
+
+      {/* Footer */}
+      {/* <FooterAreaTwo /> */}
     </>
   );
 };
 
-export default page;
+export default Page;

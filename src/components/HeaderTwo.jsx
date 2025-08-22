@@ -55,7 +55,7 @@ const HeaderOne = () => {
             <div className="col-auto d-none d-lg-block">
               <div className="header-logo">
                 <Link href="/">
-                  <img src="assets/img/logo.png" alt="Fixturbo" />{/** rani badalt le LOgo*/}
+                  <img src="assets/img/logo.png" alt="sme2d" />{/** rani badalt le LOgo*/}
                 </Link>
               </div>
             </div>
@@ -232,7 +232,7 @@ const HeaderOne = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link href="/">
-                <img src="assets/img/logo.svg" alt="Fixturbo" />
+                <img src="assets/img/logo.svg" alt="sme2d" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

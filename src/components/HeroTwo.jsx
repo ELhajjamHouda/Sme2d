@@ -17,7 +17,7 @@ const HeroTwo = () => {
               <h1 className="hero-title text-white">
                 SME2D{" "}
                 <span>
-                  <img src="assets/img/hero/hero_shape_2.png" alt="Fixturbo" />
+                  <img src="assets/img/hero/hero_shape_2.png" alt="sme2d" />
                   {/*Automotive */}
                 </span>{" "}
                  {/* Excellence One Repair At Time  */}
@@ -31,12 +31,12 @@ const HeroTwo = () => {
                 </Link>
                 <div className="call-media-wrap">
                   <div className="icon">
-                    <img src="assets/img/icon/phone-1.svg" alt="Fixturbo" />
+                    <img src="assets/img/icon/phone-1.svg" alt="sme2d" />
                   </div>
                   <div className="media-body">
                     <h6 className="title text-white">Demander un appel :</h6>
                     <h4 className="link">
-                      <Link className="text-white" href="tel:6295550129">
+                      <Link className="text-white" href="tel:0523285272">
                         (+212) 523 285 272
                       </Link>
                     </h4>

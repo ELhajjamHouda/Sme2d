@@ -13,11 +13,11 @@ const PortfolioTwo = () => {
               <span className="sub-title">Our project</span>
               <h2 className="sec-title">
                 Affordable Car Repair The Best Solutions{" "}
-                <img
+                {/* <img
                   className="title-bg-shape"
                   src="assets/img/bg/title-bg-shape.png"
-                  alt="Fixturbo"
-                />
+                  alt="sme2d"
+                /> */}
               </h2>
             </div>
           </div>
@@ -75,7 +75,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-1.png" alt="Fixturbo" />
+                    <img src="assets/img/portfolio/2-1.png" alt="sme2d" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -99,7 +99,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-2.png" alt="Fixturbo" />
+                    <img src="assets/img/portfolio/2-2.png" alt="sme2d" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -123,7 +123,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-3.png" alt="Fixturbo" />
+                    <img src="assets/img/portfolio/2-3.png" alt="sme2d" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -147,7 +147,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-4.png" alt="Fixturbo" />
+                    <img src="assets/img/portfolio/2-4.png" alt="sme2d" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -171,7 +171,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-5.png" alt="Fixturbo" />
+                    <img src="assets/img/portfolio/2-5.png" alt="sme2d" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -195,7 +195,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-6.png" alt="Fixturbo" />
+                    <img src="assets/img/portfolio/2-6.png" alt="sme2d" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">

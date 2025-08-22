@@ -23,7 +23,7 @@ const ServiceAreaOne = () => {
                 <div className="service-card_icon">
                   <img
                     src="assets/img/icon/service-icon_1-1.svg"
-                    alt="Fixturbo"
+                    alt="sme2d"
                   />
                 </div>
                 <h4 className="service-card_title h5">
@@ -38,7 +38,7 @@ const ServiceAreaOne = () => {
                 </Link>
               </div>
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-1.png" alt="Fixturbo" />
+                <img src="assets/img/service/service-1-1.png" alt="sme2d" />
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ const ServiceAreaOne = () => {
                 <div className="service-card_icon">
                   <img
                     src="assets/img/icon/service-icon_1-2.svg"
-                    alt="Fixturbo"
+                    alt="sme2d"
                   />
                 </div>
                 <h4 className="service-card_title h5">
@@ -63,7 +63,7 @@ const ServiceAreaOne = () => {
                 </Link>
               </div>
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-2.png" alt="Fixturbo" />
+                <img src="assets/img/service/service-1-2.png" alt="sme2d" />
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const ServiceAreaOne = () => {
                 <div className="service-card_icon">
                   <img
                     src="assets/img/icon/service-icon_1-3.svg"
-                    alt="Fixturbo"
+                    alt="sme2d"
                   />
                 </div>
                 <h4 className="service-card_title h5">
@@ -88,7 +88,7 @@ const ServiceAreaOne = () => {
                 </Link>
               </div>
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-3.png" alt="Fixturbo" />
+                <img src="assets/img/service/service-1-3.png" alt="sme2d" />
               </div>
             </div>
           </div>

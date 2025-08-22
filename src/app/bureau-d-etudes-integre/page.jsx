@@ -1,47 +1,56 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FooterAreaTwo from "@/components/FooterAreaTwo";
 import HeaderOne from "@/components/HeaderOne";
-import HeroOne1 from "@/components/HeroOne1";
-///import HeaderOne from "@/components/HeaderOne";
 import ServiceDetails from "@/components/ServiceDetails";
 import SubscribeOne from "@/components/SubscribeOne";
 import Preloader from "@/helper/Preloader";
 
-
 export const metadata = {
-  title: "Bureau d’études intégré || Fixturbo - Car Repair & Auto Services",
-  description: "Description spécifique pour la page bureau d’études intégré.",
+  title: "Bureau d'Études Intégré || Maintenance, Support & Suivi Client - SME2D",
+  description:
+    "SME2D propose un service après-vente complet avec maintenance préventive et corrective, un stock permanent de pièces détachées, et des prestations d’exploitation pour stations de traitement, relevage et pompage. Garantissez la fiabilité et la performance de vos installations avec notre équipe dédiée."
 };
 
-
-const page = () => {
+const Page = () => {
   return (
     <>
-{/* Preloader */}
-<Preloader />
+      {/* Header 
+      <HeaderOne /> */}
 
-{/* Header one */}
-<HeaderOne />
+      {/* Breadcrumb */}
+      <Breadcrumb
+        title="Bureau d'Études Intégré"
+        imageHeader="url(assets/img/hero/bureau-d-etudes-integre.png)"
+      />
 
-{/* Header one 
-<HeaderOne />*/}
+      {/* Service Details */}
+      <ServiceDetails
+        Title1="Bureau d'Études Intégré"
+        Para1={
+          <>
+            <p>
+              <strong>SME2D</strong> dispose d’un <strong>bureau d’études pluridisciplinaire</strong>, garantissant une approche complète et cohérente pour chaque projet.  
+              Nos ingénieurs et techniciens assurent la conception des procédés (<em>process</em>), l’étude hydraulique des réseaux et des ouvrages, ainsi que l’ingénierie électrique et l’automatisme.  
+            </p>
 
-{/* Header one */}
-<HeroOne1 title={"Bureau d’études intégré"}/>
+            <p>
+              Nous accompagnons nos clients depuis l’analyse des besoins jusqu’à la réalisation des plans d’exécution, en intégrant les contraintes techniques, économiques et réglementaires.  
+              Cette maîtrise globale nous permet de proposer des <strong>solutions sur mesure</strong>, fiables et optimisées.
+            </p>
+          </>
+        }
+        Img1="assets/img/service/bureau-d-etudes-integre-1.svg"
+        Img2="assets/img/service/bureau-d-etudes-integre-2.png"
+        Img3="assets/img/service/bureau-d-etudes-integre-3.png"
+      />
 
-{/* Breadcrumb
-<Breadcrumb title={"Bureau d’études intégré"} /> */}
+      {/* Subscribe Section */}
+      <SubscribeOne />
 
-{/* Service Details */}
-<ServiceDetails />
-
-{/* Subscribe One */}
-<SubscribeOne />
-
-{/* Footer Area One */}
-<FooterAreaTwo />
+      {/* Footer */}
+      {/* <FooterAreaTwo /> */}
     </>
   );
 };
 
-export default page;
+export default Page;

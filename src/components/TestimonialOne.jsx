@@ -6,13 +6,13 @@ const TestimonialOne = () => {
   return (
     <div
       className="testimonial-area-1 overflow-hidden"
-      style={{ backgroundImage: "url(assets/img/bg/testimonial-bg1-1.png)" }}
+      // style={{ backgroundImage: "url(assets/img/bg/testimonial-bg1-1.png)" }}
     >
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
             <div className="testimonial-thumb1">
-              <img src="assets/img/testimonial/testimonial-1-1.png" alt="Fixturbo" />
+              <img src="assets/img/testimonial/testimonial-1-1.png" alt="sme2d" />
             </div>
           </div>
           <div className="col-lg-6">
@@ -20,7 +20,7 @@ const TestimonialOne = () => {
               <div className="title-area">
                 <span className="sub-title">SME2D</span>
 
-                <h2 className="sec-title text-white">
+                <h2 className="sec-title ">  {/* text-white */}
                  Les moyens humains <br /> 
                 </h2>
               </div>
@@ -75,7 +75,7 @@ const TestimonialOne = () => {
                             <div className="quote-icon">
                               <img
                                 src="assets/img/icon/quote1-1.svg"
-                                alt="Fixturbo"
+                                alt="sme2d"
                               />
                             </div>
                           </div>
@@ -120,7 +120,7 @@ const TestimonialOne = () => {
                             <div className="quote-icon">
                               <img
                                 src="assets/img/icon/quote1-1.svg"
-                                alt="Fixturbo"
+                                alt="sme2d"
                               />
                             </div>
                           </div>
@@ -158,7 +158,7 @@ const TestimonialOne = () => {
                             <div className="quote-icon">
                               <img
                                 src="assets/img/icon/quote1-1.svg"
-                                alt="Fixturbo"
+                                alt="sme2d"
                               />
                             </div>
                           </div>

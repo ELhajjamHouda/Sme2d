@@ -19,7 +19,7 @@ const ServiceAreaOne_multi_img = () => {
                 </div>
                 */}
                 <h4 className="service-card_title h5">
-                  <Link href="/service-details">Épuration Des Eaux Usées</Link>
+                  <Link href="/epuration-des-eaux-usees">Épuration Des Eaux Usées</Link>
                 </h4>
                 {/*
                 <p className="service-card_text">
@@ -114,7 +114,7 @@ const ServiceAreaOne_multi_img = () => {
                 </div>
                 </div>
                 <div className="service-card_img">
-                  <img src="assets/img/service/service-1-5.png" alt="img" />
+                  <img src="assets/img/service/service-1-4.png" alt="img" />
                 </div>
             </div>
           </div>
@@ -140,7 +140,7 @@ const ServiceAreaOne_multi_img = () => {
                 </Link>
               </div>
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-5.png" alt="img" />
+                <img src="assets/img/service/service-1-5.svg" alt="img" />
               </div>
             </div>
           </div>

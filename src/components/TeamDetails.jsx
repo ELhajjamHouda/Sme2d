@@ -104,10 +104,10 @@ const TeamDetails = () => {
                     <i className="fas fa-envelope" />
                   </span>
                   <p>
-                    <a href="mailto:info@fixturbo.com">info@fixturbo.com</a>{" "}
+                    <a href="mailto:info@sme2d.com">info@sme2d.com</a>{" "}
                     <br />{" "}
-                    <a href="mailto:info.example@fixturbo.com">
-                      info.example@fixturbo.com
+                    <a href="mailto:info.example@sme2d.com">
+                      info.example@sme2d.com
                     </a>
                   </p>
                 </div>

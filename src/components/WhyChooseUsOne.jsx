@@ -13,7 +13,7 @@ const WhyChooseUsOne = () => {
                 <img
                   className="title-bg-shape shape-center"
                   src="assets/img/bg/title-bg-shape.png"
-                  alt="Fixturbo"
+                  alt="sme2d"
                 />
               </h2>
             </div>
@@ -24,14 +24,14 @@ const WhyChooseUsOne = () => {
         <div className="row gy-40 gx-60 align-items-center">
           <div className="col-xl-4 order-xl-2">
             <div className="wcu-thumb-1">
-              <img src="assets/img/normal/wcu-thumb-1-1.png" alt="Fixturbo" />
+              <img src="assets/img/normal/wcu-thumb-1-1.png" alt="sme2d" />
             </div>
           </div>
           <div className="col-xl-4 col-md-6 order-xl-1">
             <div className="wcu-card-wrap right-wrap">
               <div className="wcu-card">
                 <div className="icon">
-                  <img src="assets/img/icon/wcu-icon_2-1.svg" alt="Fixturbo" />
+                  <img src="assets/img/icon/wcu-icon_2-1.svg" alt="sme2d" />
                 </div>
                 <div className="wcu-card-details">
                   <h4 className="wcu-card-title">Consultez-nous dès maintenant </h4>
@@ -42,7 +42,7 @@ const WhyChooseUsOne = () => {
               </div>
               <div className="wcu-card">
                 <div className="icon">
-                  <img src="assets/img/icon/wcu-icon_2-2.svg" alt="Fixturbo" />
+                  <img src="assets/img/icon/wcu-icon_2-2.svg" alt="sme2d" />
                 </div>
                 <div className="wcu-card-details">
                   <h4 className="wcu-card-title">Connaître vos besoins</h4>
@@ -55,7 +55,7 @@ const WhyChooseUsOne = () => {
              {/* 
              <div className="wcu-card"> 
                 <div className="icon">
-                  <img src="assets/img/icon/wcu-icon_2-3.svg" alt="Fixturbo" />
+                  <img src="assets/img/icon/wcu-icon_2-3.svg" alt="sme2d" />
                 </div>
                 <div className="wcu-card-details">
                   <h4 className="wcu-card-title">Démarrage du projet</h4>
@@ -70,7 +70,7 @@ const WhyChooseUsOne = () => {
           <div className="col-xl-4 col-md-6 order-xl-3">
             <div className="wcu-card">
               <div className="icon">
-                <img src="assets/img/icon/wcu-icon_2-4.svg" alt="Fixturbo" />
+                <img src="assets/img/icon/wcu-icon_2-4.svg" alt="sme2d" />
               </div>
               <div className="wcu-card-details">
                 <h4 className="wcu-card-title">Des résultats remarquables</h4>
@@ -82,7 +82,7 @@ const WhyChooseUsOne = () => {
             
             <div className="wcu-card">
               <div className="icon">
-                <img src="assets/img/icon/wcu-icon_2-5.svg" alt="Fixturbo" />
+                <img src="assets/img/icon/wcu-icon_2-5.svg" alt="sme2d" />
               </div>
               <div className="wcu-card-details">
                 <h4 className="wcu-card-title">Démarrage du projet</h4>
@@ -95,7 +95,7 @@ const WhyChooseUsOne = () => {
               {/*
             <div className="wcu-card">
               <div className="icon">
-                <img src="assets/img/icon/wcu-icon_2-6.svg" alt="Fixturbo" />
+                <img src="assets/img/icon/wcu-icon_2-6.svg" alt="sme2d" />
               </div>
               <div className="wcu-card-details">
                 <h4 className="wcu-card-title">Nous commençons le travail</h4>

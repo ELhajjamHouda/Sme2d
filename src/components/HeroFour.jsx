@@ -12,17 +12,17 @@ const HeroFour = () => {
         <img
           className="shape-position shape1"
           src="assets/img/hero/shape1.png"
-          alt="Fixturbo"
+          alt="sme2d"
         />
         <img
           className="shape-position shape2"
           src="assets/img/hero/shape2.png"
-          alt="Fixturbo"
+          alt="sme2d"
         />
         <img
           className="shape-position shape3"
           src="assets/img/hero/shape3.png"
-          alt="Fixturbo"
+          alt="sme2d"
         />
       </div>
       <div className="container">

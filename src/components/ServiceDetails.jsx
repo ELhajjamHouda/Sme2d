@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const ServiceDetails = ({Title1,Para1,Img1}) => {
+const ServiceDetails = ({Title1,Para1,Img1,Img2,Img3}) => {
   return (
     <div className="service-details-area space-top space-extra-bottom overflow-hidden">
       <div className="container">
@@ -11,22 +11,22 @@ const ServiceDetails = ({Title1,Para1,Img1}) => {
               <div className="page-img mb-45">
                 <img
                   src={Img1}
-                  alt="Fixturbo"
+                  alt="sme2d"
                 />
               </div>
               <div className="page-content">
                 <h2 className="page-title">{Title1}</h2>
-                <p className="mb-25">
+                <div className="mb-25">
                     {Para1}
-                </p>
-                <p className="mb-25">
+                </div>
+                {/*<p className="mb-25">
                   Nous concevons des installations sur mesure, permettant de traiter 
                   efficacement les effluents tout en favorisant la valorisation des eaux
                   traitées. Ces solutions contribuent à la préservation des ressources et à
                   l’optimisation des coûts d’exploitation. Chaque projet est étudié selon 
                   les spécificités des effluents et les objectifs de réutilisation
                 </p>
-                {/* <h3 className="page-subtitle mb-15">
+                 <h3 className="page-subtitle mb-15">
                   Trusted Car Repair Professionals
                 </h3>
                 <p className="mb-30">
@@ -41,21 +41,25 @@ const ServiceDetails = ({Title1,Para1,Img1}) => {
                   <div className="col-sm-6">
                     <div className="page-img">
                       <img
-                        src="assets/img/service/service-details1-2.jpeg"
-                        alt="Fixturbo"
+                        // src="assets/img/service/service-details1-2.jpeg"
+                        // alt="sme2d"
+                        src={Img2}
+                       alt="sme2d"
                       />
                     </div>
                   </div>
                   <div className="col-sm-6">
                     <div className="page-img">
                       <img
-                        src="assets/img/service/service-details1-3.jpeg"
-                        alt="Fixturbo"
+                        // src="assets/img/service/service-details1-3.jpeg"
+                        // alt="sme2d"
+                        src={Img3}
+                        alt="sme2d"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="checklist style2 mt-35 mb-20">
+                {/* <div className="checklist style2 mt-35 mb-20">
                   <ul>
                     <li>
                       <i className="fas fa-angle-double-right" /> A car repair
@@ -77,7 +81,7 @@ const ServiceDetails = ({Title1,Para1,Img1}) => {
                       Solutions
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -87,46 +91,46 @@ const ServiceDetails = ({Title1,Para1,Img1}) => {
                 <h3 className="widget_title">Nos services</h3>
                 <ul>
                   <li>
-                    <Link href="/blog">
+                    <Link href="#">
                       <i className="fas fa-angle-double-right" />
                       Épuration Des Eaux Usées
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog">
+                    <Link href="/relevage-et-pompage-des-eaux">
                       <i className="fas fa-angle-double-right" />
                       Relevage et Pompage des Eaux
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog">
+                    <Link href="/traitement-de-l-air">
                       <i className="fas fa-angle-double-right" />
                       Traitement de l'air
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog">
+                    <Link href="/electricite-et-automatisme">
                       <i className="fas fa-angle-double-right" />
                       Électricité et Automatisme
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog">
+                    <Link href="/service-apres-vente-et-exploitation">
                       <i className="fas fa-angle-double-right" />
                       Service après-vente et exploitation
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog">
+                    <Link href="/bureau-d-etudes-integre">
                       <i className="fas fa-angle-double-right" />
-                      Bureau d’études intégré
+                      Bureau d’Études intégré
                     </Link>
                   </li>
                 </ul>
               </div>
               <div className="widget widget_contact">
                 <div className="widget-contact-wrap text-center">
-                  <h3 className="widget_title">Contact Us</h3>
+                  <h3 className="widget_title">Contactez-nous</h3>
                   <p className="widget-contact-text">
                     Vous pouvez nous contacter à tout moment
                   </p>

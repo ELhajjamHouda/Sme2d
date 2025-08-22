@@ -36,9 +36,9 @@ const HeroThree = () => {
                         <span>
                           <img
                             src="assets/img/hero/hero_shape_3.png"
-                            alt="Fixturbo"
+                            alt="sme2d"
                           />
-                          Welcome Fixturbo
+                          Welcome sme2d
                         </span>{" "}
                       </div>
                       <h1
@@ -69,7 +69,7 @@ const HeroThree = () => {
                           <div className="icon">
                             <img
                               src="assets/img/icon/phone-1.svg"
-                              alt="Fixturbo"
+                              alt="sme2d"
                             />
                           </div>
                           <div className="media-body">
@@ -123,9 +123,9 @@ const HeroThree = () => {
                         <span>
                           <img
                             src="assets/img/hero/hero_shape_3.png"
-                            alt="Fixturbo"
+                            alt="sme2d"
                           />
-                          Welcome Fixturbo
+                          Welcome sme2d
                         </span>{" "}
                       </div>
                       <h1
@@ -156,7 +156,7 @@ const HeroThree = () => {
                           <div className="icon">
                             <img
                               src="assets/img/icon/phone-1.svg"
-                              alt="Fixturbo"
+                              alt="sme2d"
                             />
                           </div>
                           <div className="media-body">

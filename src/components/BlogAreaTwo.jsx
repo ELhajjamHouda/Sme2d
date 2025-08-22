@@ -50,7 +50,7 @@ const BlogAreaTwo = () => {
               <div>
                 <div className="blog-card style2">
                   <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_1.png" alt="Fixturbo" />
+                    <img src="assets/img/blog/blog_s2_1.png" alt="sme2d" />
                                         {/*
                     <div className="blog-date">
                       <Link href="/blog">
@@ -86,7 +86,7 @@ const BlogAreaTwo = () => {
               <div>
                 <div className="blog-card style2">
                   <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_2.png" alt="Fixturbo" />
+                    <img src="assets/img/blog/blog_s2_2.png" alt="sme2d" />
                                         {/*
                     <div className="blog-date">
                       <Link href="/blog">
@@ -122,7 +122,7 @@ const BlogAreaTwo = () => {
               <div>
                 <div className="blog-card style2">
                   <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_3.png" alt="Fixturbo" />
+                    <img src="assets/img/blog/blog_s2_3.png" alt="sme2d" />
                                         {/*
                     <div className="blog-date">
                       <Link href="/blog">
@@ -158,7 +158,7 @@ const BlogAreaTwo = () => {
               <div>
                 <div className="blog-card style2">
                   <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_1.png" alt="Fixturbo" />
+                    <img src="assets/img/blog/blog_s2_1.png" alt="sme2d" />
                                         {/*
                     <div className="blog-date">
                       <Link href="/blog">
@@ -194,7 +194,7 @@ const BlogAreaTwo = () => {
               <div>
                 <div className="blog-card style2">
                   <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_2.png" alt="Fixturbo" />
+                    <img src="assets/img/blog/blog_s2_2.png" alt="sme2d" />
                                         {/*
                     <div className="blog-date">
                       <Link href="/blog">
@@ -230,7 +230,7 @@ const BlogAreaTwo = () => {
               <div>
                 <div className="blog-card style2">
                   <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_3.png" alt="Fixturbo" />
+                    <img src="assets/img/blog/blog_s2_3.png" alt="sme2d" />
                                         {/*
                     <div className="blog-date">
                       <Link href="/blog">

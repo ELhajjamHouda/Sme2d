@@ -10,12 +10,12 @@ const AboutOne = () => {
         <img
           className="about1-shape-img-1 spin"
           src="assets/img/normal/about_shape1-2.svg"
-          alt="Fixturbo"
+          alt="sme2d"
         />
         <img
           className="about1-shape-img-2 spin2"
           src="assets/img/normal/about_shape1-1.svg"
-          alt="Fixturbo"
+          alt="sme2d"
         />
       </div>
       <div className="container">
@@ -23,10 +23,10 @@ const AboutOne = () => {
           <div className="col-xl-6">
             <div className="about-thumb1 mb-40 mb-xl-0">
               <div className="about-img-1">
-                <img src="/assets/img/normal/about_1-1.jpg" alt="Fixturbo" />
+                <img src="/assets/img/normal/about_1-1.jpg" alt="sme2d" />
               </div>
               <div className="about-img-2">
-                <img src="/assets/img/normal/about_1-2.png" alt="Fixturbo" />
+                <img src="/assets/img/normal/about_1-2.png" alt="sme2d" />
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ const AboutOne = () => {
                     >
                       <img
                         src="assets/img/icon/about_icon1-1.svg"
-                        alt="Fixturbo"
+                        alt="sme2d"
                       />
                       <h3 className="about-year-wrap-title">
                       <TrackVisibility once>

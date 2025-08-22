@@ -1,43 +1,62 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FooterAreaTwo from "@/components/FooterAreaTwo";
 import HeaderOne from "@/components/HeaderOne";
-///import HeaderOne from "@/components/HeaderOne";
 import ServiceDetails from "@/components/ServiceDetails";
 import SubscribeOne from "@/components/SubscribeOne";
 import Preloader from "@/helper/Preloader";
 
 export const metadata = {
-  title: "Service Details || Fixturbo - Car Repair & Auto Services NEXT Js Template",
+  title: "Épuration des eaux usées & Réutilisation - Solutions SME2D",
   description:
-    "Fixturbo is a clean and modern React Template suitable for any type of Auto Servicing, Car Repair & Maintenance website. It is created for automobile servicing providers who offer car wash, car service, routine maintenance, truck service, etc. This HTML template can be used for car servicing, car repairing, car wash, auto shop, mechanic shop, batteries shop, tire / wheel shop, and multipurpose businesses. We have used comment on codes and also decorated the codes beautifully so one can find it very easy to customize.",
+    "SME2D propose des solutions globales pour l’épuration et la réutilisation des eaux usées. Conception et installation sur mesure pour les secteurs domestique, industriel, agroalimentaire, pharmaceutique, textile et abattoirs. Traitement efficace des effluents, valorisation des eaux traitées, préservation des ressources et optimisation des coûts d’exploitation."
 };
+ 
 
-
-const page = () => {
+const Page = () => {
   return (
     <>
-{/* Preloader */}
-<Preloader />
+      {/* Header 
+      <HeaderOne /> */}
 
-{/* Header one */}
-<HeaderOne />
+      {/* Breadcrumb */}
+      <Breadcrumb
+        title="Épuration Des Eaux-Usées"
+        imageHeader="url(assets/img/hero/epuration-des-eaux-Usees.svg)"
+      />
 
-{/* Header one 
-<HeaderOne />*/}
+      {/* Service Details */}
+      <ServiceDetails
+        Title1="Épuration Des Eaux-Usées"
+        Para1={
+          <>
+            <p>
+              <strong>SME2D</strong> propose des solutions globales pour l’<strong>épuration</strong> et la <strong>réutilisation</strong> des <strong>eaux usées</strong>. Nos systèmes s’adaptent aux besoins des secteurs <strong>domestique</strong>, <strong>industriel</strong>, <strong>agroalimentaire</strong>, <strong>pharmaceutique</strong>, <strong>textile</strong> ou encore des <strong>abattoirs</strong>.
+            </p>
 
-{/* Breadcrumb */}
-<Breadcrumb title={"Service Details"} />
+            <p>
+              Nous concevons des <strong>installations sur mesure</strong>, permettant de traiter efficacement les <strong>effluents</strong> tout en favorisant la <strong>valorisation des eaux traitées</strong>. Ces solutions contribuent à la <strong>préservation des ressources</strong> et à l’<strong>optimisation des coûts d’exploitation</strong>.
+            </p>
 
-{/* Service Details */}
-<ServiceDetails />
+            <p>
+              Chaque projet est étudié selon les spécificités des <strong>effluents</strong> et les objectifs de <strong>réutilisation</strong>.
+            </p>
+          </>
 
-{/* Subscribe One */}
-<SubscribeOne />
 
-{/* Footer Area One */}
-<FooterAreaTwo />
+      }
+
+        Img1="assets/img/service/epuration-des-eaux-Usees-1.svg"
+        Img2="assets/img/service/epuration-des-eaux-Usees-2.svg"
+        Img3="assets/img/service/epuration-des-eaux-Usees-3.svg"
+      />
+
+      {/* Subscribe Section */}
+      <SubscribeOne />
+
+      {/* Footer */}
+      {/* <FooterAreaTwo /> */}
     </>
   );
 };
 
-export default page;
+export default Page;

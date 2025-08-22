@@ -11,11 +11,11 @@ const ContactArea = () => {
                 <div className="contact-info_icon">
                   <i className="fas fa-map-marker-alt" />
                 </div>
-                <h6 className="contact-info_title">Address</h6>
+                <h6 className="contact-info_title">Adresse</h6>
                 <p className="contact-info_text">
-                  6391 Celina, Delaware
+                  Lot xxx Zone Industriel Sud Ouest 
                 </p>
-                <p className="contact-info_text">Mirpur,Bangladesh</p>
+                <p className="contact-info_text">Mohammedia , Maroc</p>
               </div>
             </div>
             <div className="col-xxl-3 col-lg-4 col-md-6">
@@ -23,16 +23,16 @@ const ContactArea = () => {
                 <div className="contact-info_icon">
                   <i className="fas fa-phone-alt" />
                 </div>
-                <h6 className="contact-info_title">Phone Number</h6>
+                <h6 className="contact-info_title">Contact</h6>
                 <p className="contact-info_text">
-                  <a href="tel:6295550129">(629) 555-0129</a>
+                  <a href="tel:(+212) 661 932 162">(+212) 661 932 162</a>
                 </p>
                 <p className="contact-info_text">
-                  <a href="tel:01254693326">01254693326</a>
+                  <a href="tel:(+212) 661 932 162">(+212) 661 932 162</a>
                 </p>
               </div>
             </div>
-            <div className="col-xxl-3 col-lg-4 col-md-6">
+            {/* <div className="col-xxl-3 col-lg-4 col-md-6">
               <div className="contact-info">
                 <div className="contact-info_icon">
                   <i className="fas fa-clock" />
@@ -41,7 +41,7 @@ const ContactArea = () => {
                 <p className="contact-info_text">Sun-10AM To 5PM</p>
                 <p className="contact-info_text">Thurs-9AM To 8PM</p>
               </div>
-            </div>
+            </div> */}
             <div className="col-xxl-3 col-lg-4 col-md-6">
               <div className="contact-info">
                 <div className="contact-info_icon">
@@ -50,11 +50,11 @@ const ContactArea = () => {
                 <h6 className="contact-info_title">E-mail</h6>
                 <p className="contact-info_text">
                   <a href="mailto:michael.mitc@example.com">
-                    michael.mitc@example.com
+                    mailto:contact@sme2d.com
                   </a>
                 </p>
                 <p className="contact-info_text">
-                  <a href="mailto:nafiz 0121@gmail.com">nafiz 0121@gmail.com</a>
+                  <a href="mailto:nafiz 0121@gmail.com">mailto:contact@sme2d.com</a>
                 </p>
               </div>
             </div>
@@ -73,7 +73,7 @@ const ContactArea = () => {
           </div>
         </div>
       </div>
-      <div className="space-bottom">
+      {/* <div className="space-bottom">
         <div className="container">
           <div className="row flex-row-reverse">
             <div className="col-lg-6 text-lg-end">
@@ -81,7 +81,7 @@ const ContactArea = () => {
                 <div className="about-counter-grid jump">
                   <img
                     src="assets/img/icon/faq2-counter-icon-1.svg"
-                    alt="Fixturbo"
+                    alt="sme2d"
                   />
                   <div className="media-right">
                     <h3 className="about-counter">
@@ -90,7 +90,7 @@ const ContactArea = () => {
                     <h4 className="about-counter-text">Services we provide</h4>
                   </div>
                 </div>
-                <img src="assets/img/normal/faq-thumb-2-1.png" alt="Fixturbo" />
+                <img src="assets/img/normal/faq-thumb-2-1.png" alt="sme2d" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -172,7 +172,7 @@ const ContactArea = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
