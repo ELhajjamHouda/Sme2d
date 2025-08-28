@@ -1,0 +1,61 @@
+.breadcumb-wrapper {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0; // الصورة تكون فالخلفية
+
+  // overlay (gradient فوق الصورة)
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0; // top:0; right:0; bottom:0; left:0;
+    background: linear-gradient(
+      90deg,
+      #171717 0.03%,
+      rgba(165, 14, 14, 0) 99.95%
+    );
+    z-index: 1; // overlay يطلع فوق الصورة
+  }
+
+  // المحتوى (title, menu) فوق overlay
+  .breadcumb-content {
+    position: relative;
+    z-index: 2;
+
+    .breadcumb-title {
+      font-size: 42px;
+      font-weight: 700;
+      color: #fff; // يبان مزيان فوق gradient
+      margin-bottom: 15px;
+    }
+
+    .breadcumb-menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      li {
+        font-size: 16px;
+        color: #fff;
+
+        &.active {
+          font-weight: 600;
+          color: #f1c40f; // اللون ديال الصفحة الحالية (يمكن تبدلو)
+        }
+
+        a {
+          color: #fff;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

@@ -20,7 +20,7 @@ const Page = () => {
       {/* Breadcrumb */}
       <Breadcrumb
         title="Bureau d'Études Intégré"
-        imageHeader="url(assets/img/hero/bureau-d-etudes-integre.png)"
+        imageHeader="/assets/img/hero/bureau-d-etudes-integre.png"
       />
 
       {/* Service Details */}
@@ -45,7 +45,7 @@ const Page = () => {
       />
 
       {/* Subscribe Section */}
-      <SubscribeOne />
+      {/* Subscribe One */}
 
       {/* Footer */}
       {/* <FooterAreaTwo /> */}

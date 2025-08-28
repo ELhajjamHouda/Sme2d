@@ -28,7 +28,7 @@ const page = () => {
  <Wishlist />
 
 {/* Subscribe One */}
-<SubscribeOne />
+{/* Subscribe One */}
 
 {/* Footer Area One */}
 <FooterAreaTwo />

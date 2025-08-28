@@ -20,7 +20,7 @@ const Page = () => {
       {/* Breadcrumb */}
       <Breadcrumb
         title="Service Après-vente et exploitation"
-        imageHeader="url(assets/img/hero/traitement-de-l-air.png)"
+        imageHeader="/assets/img/hero/traitement-de-l-air.png"
       />
 
       {/* Service Details */}
@@ -51,7 +51,7 @@ const Page = () => {
       />
 
       {/* Subscribe Section */}
-      <SubscribeOne />
+      {/* Subscribe One */}
 
       {/* Footer */}
       {/* <FooterAreaTwo /> */}

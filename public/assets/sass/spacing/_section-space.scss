@@ -6,6 +6,9 @@
 .space,
 .space-bottom {
   padding-bottom: $space;
+  .pb-0 {
+  padding-bottom: 0 !important;
+}
 }
 
 .space-extra,

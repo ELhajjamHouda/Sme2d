@@ -14,10 +14,8 @@ const CTAAreaOne = () => {
               <div className="title-area mb-md-0">
                 <span className="sub-title style2 text-white">Contactez-nous</span>
                   <h2 className="sec-title text-white mb-0">
-                    Qualité, abordabilité<br/>
-                    et service, technologies de l'eau
+                    Qualité, abordabilité et service,<br/> technologies de l'eau
                   </h2>
-
               </div>
             </div>
             <div className="col-md-auto">

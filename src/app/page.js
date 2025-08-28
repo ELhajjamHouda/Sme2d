@@ -48,11 +48,11 @@ const page = () => {
       <CounterTwo />
 
     {/* Portfolio Two */}
-      {/* Portfolio Two */}
-      <PortfolioTwo />
+      {/* Portfolio Two 
+      <PortfolioTwo /> */}
 
-      {/* Why Choose Us One */}
-      <WhyChooseUsOne />
+      {/* Why Choose Us One 
+      <WhyChooseUsOne /> */}
       
       {/* Process Area One ****/}
       <ProcessAreaOne />

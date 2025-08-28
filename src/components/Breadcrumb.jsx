@@ -1,14 +1,11 @@
 import Link from "next/link";
 
-const Breadcrumb = ({ title,imageHeader}) => {
+const Breadcrumb = ({ title, imageHeader }) => {
   return (
     <div
       className="breadcumb-wrapper"
       style={{
-        backgroundImage: imageHeader,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
+        backgroundImage: `url(${imageHeader})`,
       }}
     >
       <div className="container">

@@ -18,20 +18,23 @@ const page = () => {
       {/* Preloader */}
   <Preloader />
 
-       {/* Header one */}
+       {/* Header one 
        <HeaderOne />
 
-{/* Breadcrumb */}
-<Breadcrumb title={"Contact"} />
+       {/* Breadcrumb */}
+        <Breadcrumb
+        title="Contact"
+        imageHeader="/assets/img/hero/contact.svg"
+         />
 
-   {/* Contact Area */}
-   <ContactArea />
+    {/* Contact Area */}
+    <ContactArea />
 
-{/* Subscribe One */}
-<SubscribeOne />
+    {/* Subscribe One */}
+    {/* Subscribe One */}
 
-{/* Footer Area One 
-<FooterAreaTwo />*/}
+    {/* Footer Area One 
+    <FooterAreaTwo />*/}
     </>
   );
 };

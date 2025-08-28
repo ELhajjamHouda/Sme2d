@@ -20,7 +20,7 @@ const Page = () => {
       {/* Breadcrumb */}
       <Breadcrumb
         title="Electricite et Automatisme"
-        imageHeader="url(assets/img/hero/electricite-et-automatisme.svg)"
+        imageHeader="/assets/img/hero/electricite-et-automatisme.svg"
       />
 
       {/* Service Details */}
@@ -58,7 +58,7 @@ const Page = () => {
       />
 
       {/* Subscribe Section */}
-      <SubscribeOne />
+      {/* Subscribe One */}
 
       {/* Footer */}
       {/* <FooterAreaTwo /> */}

@@ -28,7 +28,7 @@ const page = () => {
 <TeamDetails />
 
 {/* Subscribe One */}
-<SubscribeOne />
+{/* Subscribe One */}
 
 {/* Footer Area One */}
 <FooterAreaTwo />

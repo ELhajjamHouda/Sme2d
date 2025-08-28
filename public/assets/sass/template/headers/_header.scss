@@ -500,7 +500,7 @@
     background: $white-color;
     &.sticky {
       .header-navbar-logo {
-        margin-top: 25px;
+         margin-top: 25px;
       }
     }
   }
@@ -523,29 +523,29 @@
     }
   }
   .header-navbar-logo {
-    margin-top: 0;
-    padding: 15px 0;
-    padding-left: 60px;
-    position: absolute;
-    z-index: 3;
+    // XX
+  position: relative;   // ❌ ما تبقاش absolute
+  margin: 0;
+   padding-right: 40px;      // padding صغير فقط
+  display: flex;
+  align-items: center;
+    img {
+    max-height: 80px;   // تحكم في حجم اللّوگو
+    height: auto;
+    width: auto;
+  }
   }
   .menu-area {
-    position: relative;
-    .logo-bg {
-      position: absolute;
-      height: calc(100% + 80px);
-      width: 14.2%;
-      top: -50px;
-      left: 0;
-      background: $theme-color;
-      border-radius: 0 0 5px 0;
-    }
+      display: flex;
+      align-items: center;   // 👈 يخلي اللّوگو يتوسّط عمودياً
+      justify-content: space-between; // 👈 يخلي المينو فاليمين واللّوگو فاليسار
   }
   .navbar-right-desc {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    flex-wrap: wrap;
+      display: flex;
+      align-items: center;   // العناصر كيبقاو فوسط عمودياً
+      gap: 15px;
+      flex-wrap: nowrap;     // ❌ ما تخليش العناصر يهبطو لسطر آخر
+      white-space: nowrap;   // 👈 باش النمرة ما تتقطعش
     .navbar-right-desc-details {
       .title {
         font-size: 18px;
@@ -602,7 +602,7 @@
     top: 0;
   }
   .header-layout1 .header-navbar-logo {
-    margin-top: 13px;
+    // margin-top: 3px;
   }
   .header-layout1 .sticky-wrapper.sticky .header-navbar-logo {
     margin-top: 15px;
@@ -618,7 +618,7 @@
 }
 @include xl {
   .header-layout1 .menu-area .main-menu {
-    padding-left: 230px;
+    padding-left: 23px;
   }
   .header-layout1 .menu-area .logo-bg {
     width: 20%;

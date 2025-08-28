@@ -6,7 +6,9 @@ import AboutTwo from "@/components/AboutTwo";
 import TeamDetails from "@/components/TeamDetails";
 import Breadcrumb from "@/components/Breadcrumb";
 import CTAAreaOne from "@/components/CTAAreaOne";
+import MarqueeOne from "@/components/MarqueeOne";
 import FooterAreaTwo from "@/components/FooterAreaTwo";
+import FaqAreaTwo from "@/components/FaqAreaTwo";
 import HeaderOne from "@/components/HeaderOne";
 import ProcessAreaOne from "@/components/ProcessAreaOne";
 import SubscribeOne from "@/components/SubscribeOne";
@@ -27,14 +29,23 @@ const page = () => {
       {/* Preloader */}
       <Preloader />
 
-      {/* Header one */}
-      <HeaderOne />
+      {/* Header one 
+      <HeaderOne />*/}
 
-      {/* Breadcrumb */}
-      <Breadcrumb title={"À propos de nous"} />
-     
+       {/* Breadcrumb */}
+        <Breadcrumb
+        title="À propos de nous"
+        imageHeader="/assets/img/hero/about.png"
+         />
+     {/* MarqueeOne */}
+     <MarqueeOne />
+
+    {/* FaqAreaTwo */}
+    <FaqAreaTwo />
+
       {/* TeamDetails*/}
       <TeamDetails />
+
 
       {/* About Area */}
       <AboutOne />
@@ -50,10 +61,10 @@ const page = () => {
 
       {/* Team Area Two 
       <TeamAreaTwo />*/}
-
+      
+      {/* Subscribe One 
       {/* Subscribe One */}
-      <SubscribeOne />
-
+      
       {/* Footer Area One 
       <FooterAreaTwo /> */}
     </>

@@ -3,7 +3,7 @@ import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 const FaqAreaTwo = () => {
   return (
-    <section className="faq-area-2 space">
+      <section className="faq-area-2 space pb-0">
       <div className="container">
         <div className="row gx-60 flex-row-reverse">
           <div className="col-xl-6">
@@ -19,7 +19,7 @@ const FaqAreaTwo = () => {
                       {({ isVisible }) =>
                         isVisible && (
                           <span className="counter-number">
-                            <CountUp delay={0} start={0} end={250} />+
+                            <CountUp delay={0} start={0} end={100} />%
                           </span>
                         )
                       }
@@ -35,12 +35,12 @@ const FaqAreaTwo = () => {
             <div className="title-area">
               <span className="sub-title">Pourquoi nous choisir?</span>
               <h2 className="sec-title">
-                Si vous avez besoin d'un excellent résultat et d'une <br />  bonne qualité, nous sommes là !{" "}
-                <img
+                Si vous avez besoin d'un excellent résultat et d'une bonne qualité nous sommes là !{" "}
+                {/* <img
                   className="title-bg-shape"
                   src="assets/img/bg/title-bg-shape.png"
                   alt="sme2d"
-                />
+                /> */}
               </h2>
             </div>
             <div className="accordion-area accordion" id="faqAccordion">
@@ -80,7 +80,7 @@ const FaqAreaTwo = () => {
                 </div>
               </div>
               <div className="accordion-card style2">
-                <div className="accordion-header" id="collapse-item-2">
+                {/* <div className="accordion-header" id="collapse-item-2">
                   <button
                     className="accordion-button collapsed"
                     type="button"
@@ -92,7 +92,7 @@ const FaqAreaTwo = () => {
                     {" "}
                     Découvrir Plus
                   </button>
-                </div>
+                </div> */}
                 
                {/*
                 <div

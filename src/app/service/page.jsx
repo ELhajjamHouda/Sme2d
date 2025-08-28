@@ -26,13 +26,16 @@ const page = () => {
       <HeroThree /> */}
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Services"} />
+      <Breadcrumb
+       title="Service"
+       imageHeader="/assets/img/hero/service.svg"
+      />
 
       {/* Service Area One */}
       <ServiceAreaOne_multi_img />
 
       {/* Subscribe One */}
-      <SubscribeOne />
+      {/* Subscribe One */}
 
       {/* Footer Area One 
       <FooterAreaTwo /> */}

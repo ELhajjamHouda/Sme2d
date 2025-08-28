@@ -242,6 +242,24 @@ blockquote,
             border-radius: 5px;
         }
     }
+    .blog-meta {
+            background: $theme-color;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            border-radius: 0 5px 0 5px;
+            padding: 5.5px 20px;
+            a {
+                color: $white-color;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $title-font;
+                text-transform: capitalize;
+                i {
+                    color: $white-color;
+                }
+            }
+        }
     .blog-title {
         margin-bottom: 20px;
         font-size: 36px;
@@ -308,13 +326,45 @@ blockquote,
             }
         }
     }
+    .tables-row {
+    display: flex;
+    gap: 20px; /* المسافة بين الجدولين */
+    justify-content: center;
+    flex-wrap: wrap; /* فالموبايل يطيحو واحد تحت واحد */
+    }
+    .table-box {
+    flex: 1;
+    max-width: 350px; /* باش الطابلو مايكبروش بزاف */
+    }
+    .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #4facfe;
+    background: #fff;
+    }
+    .custom-table th {
+    font-size: 13px;
+    font-weight: 500;
+    }
+    .styled-table th,
+    .styled-table td {
+    border: 1px solid #4facfe;
+    padding: 10px 15px;
+    text-align: center;
+    }
+    .styled-table thead {
+    background: #e6f0ff;
+    font-weight: bold;
+    }
+
+
     .blog-content {
-        margin: -25px 80px 0 30px;
+        margin: -25px 23px 0 23px;
         position: relative;
-        border-radius: 5px 0 5px 5px;
+        border-radius: 5px 5px 5px 5px;
         background: $white-color;
         box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
-        padding: 40px;
+        padding: 30px 15px 0 15px;;
     }
     .blog-audio {
         line-height: 1;
@@ -622,6 +672,35 @@ blockquote,
             }
         }
     }
+    .blog-thumb {
+  position: relative; /* nécessaire pour que l'enfant absolute se positionne par rapport à l'image */
+}
+.text-overlay {
+  position: absolute;
+  top: 50%;          /* centre verticalement */
+  left: 50%;         /* centre horizontalement */
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column; /* empile les phrases */
+  align-items: center;    /* centre horizontalement */
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4); /* fond semi-transparent pour lisibilité */
+  color: #fff;                 /* texte blanc */
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 25px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .text-overlay {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+
     .blog-content {
         margin-top: 26px;
     }

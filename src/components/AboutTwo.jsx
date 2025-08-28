@@ -15,7 +15,7 @@ const AboutTwo = () => {
               <div className="about-counter-wrap jump-reverse">
                 <img src="assets/img/icon/about_icon2-1.svg" alt="sme2d" />
                 <h3 className="about-counter">
-                  <TrackVisibility once>
+                  {/* <TrackVisibility once>
                     {({ isVisible }) =>
                       isVisible && (
                         <span className="counter-number">
@@ -24,9 +24,9 @@ const AboutTwo = () => {
                         </span>
                       )
                     }
-                  </TrackVisibility>
+                  </TrackVisibility> */}
                 </h3>
-                <h4 className="about-counter-text">Trusted Customer</h4>
+                <h4 className="about-counter-text">Expertise technique</h4>
               </div>
 
             </div>
@@ -37,11 +37,11 @@ const AboutTwo = () => {
                 <span className="sub-title">À propos de nous</span>
                 <h2 className="sec-title">
                   Le meilleur travail avec une bonne qualité pour un bon avenir!{" "}
-                  <img
+                  {/* <img
                     className="title-bg-shape shape-center"
                     src="assets/img/bg/title-bg-shape.png"
                     alt="sme2d"
-                  />
+                  /> */}
                 </h2>
                 <p className="sec-text">
                   SME2D, des solutions fiables pour le traitement de l’eau

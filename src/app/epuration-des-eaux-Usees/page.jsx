@@ -21,7 +21,7 @@ const Page = () => {
       {/* Breadcrumb */}
       <Breadcrumb
         title="Épuration Des Eaux-Usées"
-        imageHeader="url(assets/img/hero/epuration-des-eaux-Usees.svg)"
+        imageHeader="/assets/img/hero/epuration-des-eaux-Usees.svg"
       />
 
       {/* Service Details */}
@@ -51,7 +51,7 @@ const Page = () => {
       />
 
       {/* Subscribe Section */}
-      <SubscribeOne />
+      {/* Subscribe One */}
 
       {/* Footer */}
       {/* <FooterAreaTwo /> */}

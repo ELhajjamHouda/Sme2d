@@ -16,7 +16,7 @@ const CounterTwo = () => {
               </div>
               <div className="media-body">
                 <h2 className="counter-card_number">
-                  <TrackVisibility once>
+                  {/* <TrackVisibility once>
                     {({ isVisible }) =>
                       isVisible && (
                         <span className="counter-number">
@@ -25,8 +25,9 @@ const CounterTwo = () => {
                       )
                     }
                   </TrackVisibility>
-                </h2>
-                <p className="counter-card_text">Projets achevés</p>
+                */}
+                </h2> 
+                <p className="counter-card_text">Rapidité d’exécution</p>
               </div>
             </div>
           </div>
@@ -43,7 +44,7 @@ const CounterTwo = () => {
               </div>
               <div className="media-body">
                 <h2 className="counter-card_number">
-                  <TrackVisibility once>
+                  {/* <TrackVisibility once>
                     {({ isVisible }) =>
                       isVisible && (
                         <span className="counter-number">
@@ -51,9 +52,9 @@ const CounterTwo = () => {
                         </span>
                       )
                     }
-                  </TrackVisibility>
+                  </TrackVisibility> */}
                 </h2>
-                <p className="counter-card_text">Clients Satisfaits</p>
+                <p className="counter-card_text">Expertise technique</p>
               </div>
             </div>
           </div>
@@ -70,7 +71,7 @@ const CounterTwo = () => {
               </div>
               <div className="media-body">
                 <h2 className="counter-card_number">
-                  <TrackVisibility once>
+                  {/* <TrackVisibility once>
                     {({ isVisible }) =>
                       isVisible && (
                         <span className="counter-number">
@@ -78,36 +79,9 @@ const CounterTwo = () => {
                         </span>
                       )
                     }
-                  </TrackVisibility>
+                  </TrackVisibility> */}
                 </h2>
-                <p className="counter-card_text">Employé(e)s</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-auto d-xl-block d-none">
-            <div className="counter-divider" />
-          </div>
-          <div className="col-sm-6 col-lg-auto">
-            <div className="counter-card style2">
-              <div className="counter-card_icon">
-                <img
-                  src="assets/img/icon/counter-icon_2-4.svg"
-                  alt="sme2d"
-                />
-              </div>
-              <div className="media-body">
-                <h2 className="counter-card_number">
-                  <TrackVisibility once>
-                    {({ isVisible }) =>
-                      isVisible && (
-                        <span className="counter-number">
-                          <CountUp delay={0} start={0} end={76} />+
-                        </span>
-                      )
-                    }
-                  </TrackVisibility>
-                </h2>
-                <p className="counter-card_text">Années d'expérience</p>
+                <p className="counter-card_text">Matériel de haute qualité</p>
               </div>
             </div>
           </div>

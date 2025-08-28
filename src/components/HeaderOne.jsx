@@ -103,7 +103,7 @@ const HeaderOne = () => {
           <div className="menu-area">
             <div className="header-navbar-logo">
               <Link href="/">
-                <img src="assets/img/logo-white.svg" alt="sme2d" />
+                <img src="assets/img/logo.png" alt="sme2d" />
               </Link>
             </div>
             <div className="container">
@@ -249,7 +249,7 @@ const HeaderOne = () => {
                 </div>
               </div>
             </div>
-            <div className="logo-bg" />
+            {/* <div className="logo-bg" /> */}
           </div>
         </div>
 

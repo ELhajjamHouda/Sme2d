@@ -51,11 +51,11 @@ const PortfolioOne = () => {
         <div className="row justify-content-center">
           <div className="col-lg-5">
             <div className="title-area text-center">
-              <span className="sub-title">Latest Portfolio</span>
-              <h2 className="sec-title">Where Expertise Meets Every Engine</h2>
+              <span className="sub-title">Détails du Projet</span>
+              <h2 className="sec-title">STATION D’ÉPURATION – PRISON LOCALE EL ARJAT 1</h2>
             </div>
           </div>
-          <div className="col-12">
+          {/* <div className="col-12">
             <div className="portfolio-tab-1 mb-60">
               <div className="filter-menu-active text-center">
                 <button
@@ -88,7 +88,7 @@ const PortfolioOne = () => {
                 </button>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="row gy-30 gx-30  filter-container">
           <div className="col-lg-4 filter-item  pro1 pro3">

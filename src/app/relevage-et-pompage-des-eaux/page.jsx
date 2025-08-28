@@ -20,7 +20,7 @@ const Page = () => {
       {/* Breadcrumb */}
       <Breadcrumb
         title="Relevage et pompage des eaux"
-        imageHeader="url(assets/img/hero/relevage-et-pompage-des-eaux.png)"
+        imageHeader="/assets/img/hero/relevage-et-pompage-des-eaux.png"
       />
 
       {/* Service Details */}
@@ -48,7 +48,7 @@ const Page = () => {
       />
 
       {/* Subscribe Section */}
-      <SubscribeOne />
+      {/* Subscribe One */}
 
       {/* Footer */}
       {/* <FooterAreaTwo /> */}
