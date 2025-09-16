@@ -77,6 +77,25 @@
         }
     }
 }
+/* === Force toutes les cartes à la même hauteur === */
+.row.gy-4 {
+  display: flex;
+  flex-wrap: wrap;
+//   gap: 30px; // correspond à gy-4
+}
+
+.col-lg-4, .col-md-6 {
+  display: flex;
+  flex-direction: column; // pour que la carte prenne toute la hauteur
+}
+
+.service-card {
+  flex: 1; // remplir toute la hauteur disponible
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; // pour espacer content et image correctement
+}
+
 @include lg {
     .service-card {
         padding: 30px 0px 0px;
@@ -148,9 +167,22 @@
         transform: translate(0, 100%);
         opacity: 0;
     }
+
+    /* Atteignez vos objectifs en 4 étapes */
+// .process-counter-icon {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .process-counter-number {
+//   color: #e6f0ff;
+//   font-size: 2rem;
+//   margin: 0;
+// }
     .btn {
-        margin-left: 40px;
-        border-radius: 0 0 10px 10px !important;
+        margin-left: 0px; //40px
+        border-radius: 0 0 0px 0px !important;
     }
     &:hover {
         .service-card_icon {

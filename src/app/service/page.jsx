@@ -2,6 +2,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FooterAreaTwo from "@/components/FooterAreaTwo";
 import HeaderOne from "@/components/HeaderOne";
 import HeroThree from "@/components/HeroThree";
+import IntroAreaOne from "@/components/IntroAreaOne";
 import ServiceAreaOne_multi_img from "@/components/ServiceAreaOne_multi_img";
 import SubscribeOne from "@/components/SubscribeOne";
 import Preloader from "@/helper/Preloader";
@@ -28,11 +29,15 @@ const page = () => {
       {/* Breadcrumb */}
       <Breadcrumb
        title="Service"
-       imageHeader="/assets/img/hero/service.svg"
+       imageHeader="/assets/img/hero/1920px900px.png"
+      //  imageHeader="/assets/img/hero/about.png"
       />
 
       {/* Service Area One */}
       <ServiceAreaOne_multi_img />
+
+      {/* IntroAreaOne */}
+      <IntroAreaOne />
 
       {/* Subscribe One */}
       {/* Subscribe One */}

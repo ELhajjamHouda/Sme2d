@@ -29,14 +29,12 @@ const page = () => {
       {/* Preloader */}
       <Preloader />
 
-      {/* Header one 
-      <HeaderOne />*/}
-
-       {/* Breadcrumb */}
+      {/* Breadcrumb */}
         <Breadcrumb
         title="À propos de nous"
         imageHeader="/assets/img/hero/about.png"
          />
+
      {/* MarqueeOne */}
      <MarqueeOne />
 
@@ -65,8 +63,7 @@ const page = () => {
       {/* Subscribe One 
       {/* Subscribe One */}
       
-      {/* Footer Area One 
-      <FooterAreaTwo /> */}
+
     </>
   );
 };

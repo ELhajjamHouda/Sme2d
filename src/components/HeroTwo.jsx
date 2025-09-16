@@ -1,4 +1,17 @@
+"use client";
+
 import Link from "next/link";
+
+const services = [
+  "Traitement des eaux usées",
+  "Relevage et pompage",
+  "Traitement de l’air",
+  "Automatisation et gestion des installations",
+  "Étude, conception et réhabilitation",
+  "Fourniture et installation d’équipements",
+  "Maintenance et service après-vente",
+];
+
 const HeroTwo = () => {
   return (
     <div
@@ -13,18 +26,17 @@ const HeroTwo = () => {
         <div className="row">
           <div className="col-xxl-8 col-xl-9 col-lg-10">
             <div className="hero-style2">
-              <span className="sub-title text-white">Bienvenue  chez </span>
+              <span className="sub-title text-white">Bienvenue chez SME2D</span>
               <h1 className="hero-title text-white">
                 SME2D{" "}
                 <span>
                   <img src="assets/img/hero/hero_shape_2.png" alt="sme2d" />
-                  {/*Automotive */}
-                </span>{" "}
-                 {/* Excellence One Repair At Time  */}
+                </span>
               </h1>
               <p className="hero-text text-white">
                 SOCIETE MAROCAINE D’EAU ET DE DEVELOPPEMENT DURABLE
               </p> 
+
               <div className="btn-group">
                 <Link href="/about" className="btn">
                   Découvrir plus
@@ -43,6 +55,20 @@ const HeroTwo = () => {
                   </div>
                 </div>
               </div>
+
+              {/* Auto-slider services */}
+              <div className="hero-slider-wrapper mt-4">
+                <ul className="hero-list slider auto-scroll">
+                  {services.map((service, idx) => (
+                    <li key={idx}>{service}</li>
+                  ))}
+                  {/* Repeat items to make continuous scroll */}
+                  {services.map((service, idx) => (
+                    <li key={"copy-" + idx}>{service}</li>
+                  ))}
+                </ul>
+              </div>
+
             </div>
           </div>
         </div>

@@ -64,7 +64,7 @@
         }
     }
     &.style3 {
-        background: $title-color;
+        // background: $title-color;
         &:active,
         &:focus,
         &:hover {
@@ -72,7 +72,8 @@
         }
     }
     &.style4 {
-        background: $smoke-color;
+        //btn de service
+        // background: $smoke-color;  
         color: $theme-color;
         &:after, 
         &:before {

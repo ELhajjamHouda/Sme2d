@@ -3,7 +3,7 @@ import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 const FaqAreaTwo = () => {
   return (
-      <section className="faq-area-2 space pb-0">
+      <section className="faq-area-2 space ">
       <div className="container">
         <div className="row gx-60 flex-row-reverse">
           <div className="col-xl-6">

@@ -5,9 +5,13 @@ const Breadcrumb = ({ title, imageHeader }) => {
     <div
       className="breadcumb-wrapper"
       style={{
-        backgroundImage: `url(${imageHeader})`,
+        backgroundImage: `
+          linear-gradient(90deg, #171717 0.03%, rgba(165, 14, 14, 0) 99.95%),
+          url(${imageHeader})
+        `,
       }}
     >
+
       <div className="container">
         <div className="row">
           <div className="col-lg-6">

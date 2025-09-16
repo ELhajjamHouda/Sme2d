@@ -1,4 +1,5 @@
 "use client";
+// import { IconName } from "react-icons/di";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 const BlogAreaTwo = () => {
@@ -63,16 +64,16 @@ const BlogAreaTwo = () => {
                     <div className="blog-meta">
                       <Link href="/blog">
                         <i className="fas fa-user" />
-                        By admin
+                        MBBR
                       </Link>
-                      <Link href="/blog">
+                      {/* <Link href="/blog">
                         <i className="fas fa-comments" />
-                        Comments (05)
-                      </Link>
+                        XX client
+                      </Link> */}
                     </div>
                     <h3 className="blog-title">
                       <Link href="/blog-details">
-                        STATIONS MONOBLOCS DÉMINÉRALISATION SIDI IFNI – 2 x 10 L/S
+                        STATION D’ÉPURATION DE PRISON LOCAL D’EL ARJAT 1 
                       </Link>
                     </h3>
                     <Link className="link-btn style3" href="/blog-details">
@@ -98,17 +99,18 @@ const BlogAreaTwo = () => {
                   <div className="blog-content">
                     <div className="blog-meta">
                       <Link href="/blog">
-                        <i className="fas fa-user" />
-                        By admin
+                         <i className="fas fa-user" /> 
+                        SBR
                       </Link>
-                      <Link href="/blog">
-                        <i className="fas fa-comments" />
-                        Comments (05)
-                      </Link>
+                      {/* <Link href="/blog">
+                         <i className="fas fa-comments" /> 
+                        XX client
+                      </Link> */}
                     </div>
                     <h3 className="blog-title">
                       <Link href="/blog-details">
-                        STATIONS MONOBLOCS DÉMINÉRALISATION SIDI IFNI – 2 x 10 L/S
+                        STATION D’ÉPURATION D’UN COMPLEXE RÉSIDENTIEL ET TOURISTIQUE 
+                        SEOUL CONSTRUCTION- A SOUELEM TRIFIA 
                       </Link>
                     </h3>
                     <Link className="link-btn style3" href="/blog-details">
@@ -135,16 +137,16 @@ const BlogAreaTwo = () => {
                     <div className="blog-meta">
                       <Link href="/blog">
                         <i className="fas fa-user" />
-                        By admin
+                        Physico-chimique 
                       </Link>
-                      <Link href="/blog">
+                      {/* <Link href="/blog">
                         <i className="fas fa-comments" />
-                        Comments (05)
-                      </Link>
+                        XX client
+                      </Link> */}
                     </div>
                     <h3 className="blog-title">
                       <Link href="/blog-details">
-                        STATIONS MONOBLOCS DÉMINÉRALISATION SIDI IFNI – 2 x 10 L/S
+                        STATION DE PRÉTRAITEMENT DES REJETS INDUSTRIELS DE L’USINE SILDA
                       </Link>
                     </h3>
                     <Link className="link-btn style3" href="/blog-details">

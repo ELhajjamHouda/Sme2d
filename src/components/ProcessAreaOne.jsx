@@ -1,4 +1,7 @@
+"use client";
 
+import TrackVisibility from "react-on-screen";
+import CountUp from "react-countup";
 
 const ProcessAreaOne = () => {
   return (
@@ -15,6 +18,7 @@ const ProcessAreaOne = () => {
           alt="sme2d"
         />
       </div>
+
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">
@@ -29,10 +33,17 @@ const ProcessAreaOne = () => {
 
         {/* 4 colonnes */}
         <div className="row gy-30">
+          {/* Étape 1 */}
           <div className="col-lg-3 col-md-6 process-card-wrap">
             <div className="process-card">
-              <div className="process-card-icon">
-                <img src="/assets/img/icon/process-icon-1-1.svg" alt="sme2d" />
+              <div className="process-counter-icon">
+                <h2 className="process-counter-number">
+                  <TrackVisibility once>
+                    {({ isVisible }) =>
+                      isVisible ? <CountUp delay={0} start={0} end={1} /> : 0
+                    }
+                  </TrackVisibility>
+                </h2>
               </div>
               <h4 className="process-card-title">Consultez-nous dès maintenant</h4>
               <p className="process-card-text">
@@ -41,10 +52,17 @@ const ProcessAreaOne = () => {
             </div>
           </div>
 
+          {/* Étape 2 */}
           <div className="col-lg-3 col-md-6 process-card-wrap">
             <div className="process-card">
-              <div className="process-card-icon">
-                <img src="/assets/img/icon/process-icon-1-2.svg" alt="sme2d" />
+              <div className="process-counter-icon">
+                <h2 className="process-counter-number">
+                  <TrackVisibility once>
+                    {({ isVisible }) =>
+                      isVisible ? <CountUp delay={0} start={0} end={2} /> : 0
+                    }
+                  </TrackVisibility>
+                </h2>
               </div>
               <h4 className="process-card-title">Connaître vos besoins</h4>
               <p className="process-card-text">
@@ -53,10 +71,17 @@ const ProcessAreaOne = () => {
             </div>
           </div>
 
+          {/* Étape 3 */}
           <div className="col-lg-3 col-md-6 process-card-wrap">
             <div className="process-card">
-              <div className="process-card-icon">
-                <img src="/assets/img/icon/process-icon-1-3.svg" alt="sme2d" />
+              <div className="process-counter-icon">
+                <h2 className="process-counter-number">
+                  <TrackVisibility once>
+                    {({ isVisible }) =>
+                      isVisible ? <CountUp delay={0} start={0} end={3} /> : 0
+                    }
+                  </TrackVisibility>
+                </h2>
               </div>
               <h4 className="process-card-title">Démarrage du projet</h4>
               <p className="process-card-text">
@@ -65,10 +90,17 @@ const ProcessAreaOne = () => {
             </div>
           </div>
 
+          {/* Étape 4 */}
           <div className="col-lg-3 col-md-6 process-card-wrap">
             <div className="process-card">
-              <div className="process-card-icon">
-                <img src="/assets/img/icon/counter-icon_2-2.svg" alt="sme2d" />
+              <div className="process-counter-icon">
+                <h2 className="process-counter-number">
+                  <TrackVisibility once>
+                    {({ isVisible }) =>
+                      isVisible ? <CountUp delay={0} start={0} end={4} /> : 0
+                    }
+                  </TrackVisibility>
+                </h2>
               </div>
               <h4 className="process-card-title">Des résultats remarquables</h4>
               <p className="process-card-text">

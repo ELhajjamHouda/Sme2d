@@ -71,6 +71,39 @@
     }
   }
 }
+
+
+.process-card {
+  text-align: center; /* centre le contenu dans chaque carte */
+}
+
+.process-counter-icon {
+  margin: 0 auto 20px auto; /* centre horizontalement */
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #4facfe, #e6f0ff); /* dégradé */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.process-counter-icon:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.process-counter-number {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
+
+
 .process-card {
   text-align: center;
   .process-card-icon {

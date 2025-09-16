@@ -1,269 +1,67 @@
-'use client'
+"use client";
+
+import { useRef, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/effect-fade";
 import Link from "next/link";
-const CategoryAreaOne = () => {
+
+const CategoryAreaOne = ({ slidesData = [], sectionTitle}) => {
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
+  const [swiperReady, setSwiperReady] = useState(false);
+
+  useEffect(() => {
+    setSwiperReady(true);
+  }, []);
+
   return (
     <div className="category-area-1 pt-95 pb-100">
       <div className="container">
-        <h4 className="text-center fw-extrabold mb-20">Featured categories</h4>
-        <div className="row gx-0 global-carousel category-slider3">
-          <Swiper
-            navigation={{
-              nextEl: ".team-slider2-next",
-              prevEl: ".team-slider2-prev",
-            }}
-            spaceBetween={20}
-            slidesPerGroup={1}
-            speed={1000}
-            pagination={{ clickable: true }}
-            loop
-            autoplay={{ delay: 3000, disableOnInteraction: false }}
-            className="mySwiper"
-            modules={[FreeMode, Navigation, Thumbs, EffectFade, Autoplay]}
-            breakpoints={{
-              0: {
-                slidesPerView: 2,
-              },
-              768: {
-                slidesPerView: 3,
-              },
-              992: {
-                slidesPerView: 4,
-              },
-              1200: {
-                slidesPerView: 5,
-              },
-              1400: {
-                slidesPerView: 5,
-              },
-            }}
-          >
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-1.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-2.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-3.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-4.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-5.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-6.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-7.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-8.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-1.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-2.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-3.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-4.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-5.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-6.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-7.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="category-card-item">
-                  <img
-                    src="assets/img/update-img/category/category1-8.png"
-                    alt="sme2d"
-                  />
-                  <h6 className="category-card-title">
-                    <Link href="/shop-details">Engine pistons</Link>
-                  </h6>
-                  <p className="category-card-text">12 Products</p>
-                </div>
-              </div>
-            </SwiperSlide>
-          </Swiper>
+        <h4 className="text-center fw-extrabold mb-20">{sectionTitle}</h4>
+        <div className="row gx-0 global-carousel category-slider3 relative">
+          {swiperReady && (
+            <Swiper
+              navigation={{
+                prevEl: prevRef.current,
+                nextEl: nextRef.current,
+              }}
+              spaceBetween={20}
+              slidesPerGroup={1}
+              speed={1000}
+              pagination={{ clickable: true }}
+              loop
+              autoplay={{ delay: 3000, disableOnInteraction: false }}
+              className="mySwiper"
+              modules={[FreeMode, Navigation, Thumbs, EffectFade, Autoplay]}
+              breakpoints={{
+                0: { slidesPerView: 2 },
+                768: { slidesPerView: 3 },
+                992: { slidesPerView: 4 },
+                1200: { slidesPerView: 5 },
+                1400: { slidesPerView: 5 },
+              }}
+            >
+              {slidesData.map((slide, i) => (
+                <SwiperSlide key={i}>
+                  <div className="category-card-item">
+                    <img src={slide.img} alt={slide.title} />
+                    <h6 className="category-card-title">
+                      <Link href={slide.href || "/shop-details"}>
+                        {slide.title}
+                      </Link>
+                    </h6>
+                    {slide.text && (
+                      <p className="category-card-text">{slide.text}</p>
+                    )}
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          )}
         </div>
       </div>
     </div>

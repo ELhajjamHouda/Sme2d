@@ -40,11 +40,9 @@ const FooterAreaTwo = () => {
               <div className="widget footer-widget widget-about">
                 <h3 className="widget_title">SME2D</h3>
                 <p className="footer-text mb-30">
-                  Spécialiste dans les technologies de l’eau depuis XXXX, SME2d, vous propose
-                   son partenariat tout au long de la réalisation de vos projets de traitement
-                    et épuration des eaux ..
+                 SME2D, votre partenaire pour des solutions innovantes et durables dans le traitement et l’épuration de l’eau.
                 </p>
-                <div className="social-btn style3">
+                {/* <div className="social-btn style3">
                   <Link href="https://www.instagram.com/" tabIndex={-1}>
                     <i className="fab fa-instagram" />
                   </Link>
@@ -57,7 +55,7 @@ const FooterAreaTwo = () => {
                   <Link href="https://facebook.com/" tabIndex={-1}>
                     <i className="fab fa-facebook-f" />
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-md-6 col-xl-auto">
@@ -74,9 +72,9 @@ const FooterAreaTwo = () => {
                     <li>
                       <Link href="/contact">Services</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/contact">xxxxx</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="/contact">Projets</Link>
                     </li>

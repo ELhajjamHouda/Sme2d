@@ -30,7 +30,8 @@
 .copyright-wrap {
     padding: 28px 0;
     background: transparent;
-    border-top: 1px solid #232323;
+    // border-top: 1px solid #232323;white-color
+    border-top: 1px solid $smoke-color ;
 }
 .copyright-text {
     margin: 0;

@@ -34,6 +34,7 @@ const HeaderOne = () => {
     for (let i = 0; i < numMenuExpand; i++) {
       menuExpand[i].addEventListener("click", sideMenuExpand);
     }
+
     window.onscroll = () => {
       if (window.pageYOffset < 150) {
         setScroll(false);
@@ -47,9 +48,11 @@ const HeaderOne = () => {
   const mobileMenu = () => {
     setActive(!active);
   };
+
   return (
     <>
-      <header className="nav-header header-layout1 ">
+      <header className="nav-header header-layout1">
+        {/* Partie top header */}
         <div className="header-top">
           <div className="container">
             <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
@@ -73,7 +76,7 @@ const HeaderOne = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-auto">
+              {/* <div className="col-auto">
                 <div className="header-links ps-0">
                   <ul>
                     <li>
@@ -94,12 +97,13 @@ const HeaderOne = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
+
+        {/* Sticky Menu */}
         <div className={`sticky-wrapper ${scroll && "sticky"}`}>
-          {/* Main Menu Area */}
           <div className="menu-area">
             <div className="header-navbar-logo">
               <Link href="/">
@@ -121,27 +125,6 @@ const HeaderOne = () => {
                       <li>
                         <Link href="/">Accueil</Link>
                       </li>
-                        {/* <ul className="sub-menu">
-                          <li>
-                            <Link href="/">Home 01</Link>
-                          </li>
-                          <li>
-                            <Link href="/home-2">Home 02</Link>
-                          </li>
-                          <li>
-                            <Link href="/home-3">Home 03</Link>
-                          </li>
-                          <li>
-                            <Link href="/home-4">Home 04</Link>
-                          </li>
-                          <li>
-                            <Link href="/home-5">Home 05</Link>
-                          </li>
-                          <li>
-                            <Link href="/home-6">Home 06</Link>
-                          </li>
-                        </ul>
-                      </li> */}
                       <li>
                         <Link href="/about">À propos de nous</Link>
                       </li>
@@ -149,83 +132,47 @@ const HeaderOne = () => {
                         <Link href="/service">Nos services</Link>
                         <ul className="sub-menu">
                           <li>
-                            <Link href="/service">Épuration Des Eaux Usées</Link>
+                            <Link href="/service">
+                              Épuration Des Eaux Usées
+                            </Link>
                           </li>
                           <li>
-                            <Link href="/relevage-et-pompage-des-eaux">Relevage et Pompage des Eaux</Link>
+                            <Link href="/relevage-et-pompage-des-eaux">
+                              Relevage et Pompage des Eaux
+                            </Link>
                           </li>
-                            <li>
-                            <Link href="/traitement-de-l-air">Traitement de l'air</Link>
+                          <li>
+                            <Link href="/traitement-de-l-air">
+                              Traitement de l'air
+                            </Link>
                           </li>
-                            <li>
-                            <Link href="/electricite-et-automatisme">Électricité et Automatisme</Link>
+                          <li>
+                            <Link href="/electricite-et-automatisme">
+                              Électricité et Automatisme
+                            </Link>
                           </li>
-                            <li>
-                            <Link href="/service-apres-vente-et-exploitation">Service après-vente et exploitation</Link>
+                          <li>
+                            <Link href="/service-apres-vente-et-exploitation">
+                              Service après-vente et exploitation
+                            </Link>
                           </li>
-                            <li>
-                            <Link href="/bureau-d-etudes-integre">Bureau d’études intégré</Link>
+                          <li>
+                            <Link href="/bureau-d-etudes-integre">
+                              Bureau d’études intégré
+                            </Link>
                           </li>
                         </ul>
                       </li>
-                      <li className="menu-item-has-children">
-                        <Link href="#">Projects</Link>
-                        <ul className="sub-menu">
-                          <li>
-                            <Link href="#">Projects</Link> 
-                            {/* /project */}
-                          </li>
-                          <li>
-                            <Link href="#">  Projects Details </Link>
-                            {/* /project-details */}
-                          </li>
-                        </ul>
+                      <li>
+                        <Link href="/#">Projects</Link>
                       </li>
-                      <li className="menu-item-has-children">
-                        <Link href="#">Actualités</Link>
-                        <ul className="sub-menu">
-                          <li>
-                            <Link href="#">Blog</Link>
-                            {/* /blog */}
-                          </li>
-                          <li>
-                            <Link href="#">Blog Details</Link>
-                            {/* /blog-details */}
-                          </li>
-                        </ul>
-                      </li>
-                      {/* <li className="menu-item-has-children">
-                        <Link href="#">Pages</Link>
-                        <ul className="sub-menu">
-                          <li>
-                            <Link href="/team">Team Page</Link>
-                          </li>
-                          <li>
-                            <Link href="/team-details">Team Details</Link>
-                          </li>
-                          <li>
-                            <Link href="/shop">Shop Page</Link>
-                          </li>
-                          <li>
-                            <Link href="/shop-details">Shop Details</Link>
-                          </li>
-                          <li>
-                            <Link href="/cart">Cart</Link>
-                          </li>
-                          <li>
-                            <Link href="/checkout">Checkout</Link>
-                          </li>
-                          <li>
-                            <Link href="/wishlist">Wishlist</Link>
-                          </li>
-                        </ul>
-                      </li> */}
                       <li>
                         <Link href="/contact">Contact</Link>
                       </li>
                     </ul>
                   </nav>
-                  {/* xxxx */}
+
+                  {/* Mobile button */}
                   <div className="navbar-right d-inline-flex d-lg-none">
                     <button
                       type="button"
@@ -236,25 +183,25 @@ const HeaderOne = () => {
                     </button>
                   </div>
                 </div>
+
                 <div className="col-auto ms-auto d-xl-block d-none">
                   <div className="navbar-right-desc">
                     <img src="assets/img/icon/chat.svg" alt="sme2d" />
                     <div className="navbar-right-desc-details">
                       <h6 className="title">Besoin d'aide</h6>
-                      <Link className="link" href="tel:+2590256215">
-                         (+212) 661 932 162
+                      <Link className="link" href="tel:+212661932162">
+                        (+212) 661 932 162
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            {/* <div className="logo-bg" /> */}
           </div>
         </div>
 
-        {/* Mobile Menu */}
-        <div className={`mobile-menu-wrapper  ${active && "body-visible"}`}>
+        {/* === MOBILE MENU === */}
+        <div className={`mobile-menu-wrapper ${active && "body-visible"}`}>
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link href="/">
@@ -264,112 +211,48 @@ const HeaderOne = () => {
                 <i className="fa fa-times" />
               </button>
             </div>
+
             <div className="mobile-menu">
               <ul id="offcanvas-navigation">
-                <li className="menu-item-has-children submenu-item-has-children">
-                  <Link href="#">Home</Link>
-                  {/* <ul className="sub-menu submenu-class">
-                    <li>
-                      <Link href="/">Home 01</Link>
-                    </li>
-                    <li>
-                      <Link href="/home-2">Home 02</Link>
-                    </li>
-                    <li>
-                      <Link href="/home-3">Home 03</Link>
-                    </li>
-                    <li>
-                      <Link href="/home-4">Home 04</Link>
-                    </li>
-                    <li>
-                      <Link href="/home-5">Home 05</Link>
-                    </li>
-                    <li>
-                      <Link href="/home-6">Home 06</Link>
-                    </li>
-                  </ul> */}
+                <li>
+                  <Link href="/">Accueil</Link>
                 </li>
                 <li>
-                  <Link href="/about">About</Link>
+                  <Link href="/about">À propos de nous</Link>
                 </li>
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link href="#">Pages</Link>
+                  <Link href="/service">Nos services</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
-                      <Link href="/team">Team Page</Link>
+                      <Link href="/service">Épuration Des Eaux Usées</Link>
                     </li>
                     <li>
-                      <Link href="/team-details">Team Details</Link>
+                      <Link href="/relevage-et-pompage-des-eaux">
+                        Relevage et Pompage des Eaux
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/shop">Shop Page</Link>
+                      <Link href="/traitement-de-l-air">Traitement de l'air</Link>
                     </li>
                     <li>
-                      <Link href="/shop-details">Shop Details</Link>
+                      <Link href="/electricite-et-automatisme">
+                        Électricité et Automatisme
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/cart">Cart</Link>
+                      <Link href="/service-apres-vente-et-exploitation">
+                        Service après-vente et exploitation
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/checkout">Checkout</Link>
-                    </li>
-                    <li>
-                      <Link href="/wishlist">Wishlist</Link>
+                      <Link href="/bureau-d-etudes-integre">
+                        Bureau d’études intégré
+                      </Link>
                     </li>
                   </ul>
                 </li>
-                <li className="menu-item-has-children submenu-item-has-children">
-                  <Link href="#">Project</Link>
-                  <ul className="sub-menu submenu-class">
-                    <li>
-                      <Link href="/project">Projects</Link>
-                    </li>
-                    <li>
-                      <Link href="/project-details">Project Details</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="menu-item-has-children submenu-item-has-children">
-                  <Link href="#">Service</Link>
-                  <ul className="sub-menu submenu-class">
-                    <li>
-                      <Link href="/service">Service</Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details">Service Details</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="menu-item-has-children submenu-item-has-children">
-                  <Link href="#">Shop</Link>
-                  <ul className="sub-menu submenu-class">
-                    <li>
-                      <Link href="/shop">Shop</Link>
-                    </li>
-                    <li>
-                      <Link href="/shop-details">Shop Details</Link>
-                    </li>
-                    <li>
-                      <Link href="/cart">Cart</Link>
-                    </li>
-                    <li>
-                      <Link href="/checkout">Checkout</Link>
-                    </li>
-                    <li>
-                      <Link href="/wishlist">Wishlist</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="menu-item-has-children submenu-item-has-children">
-                  <Link href="#">Blog</Link>
-                  <ul className="sub-menu submenu-class">
-                    <li>
-                      <Link href="/blog">Blog</Link>
-                    </li>
-                    <li>
-                      <Link href="/blog-details">Blog Details</Link>
-                    </li>
-                  </ul>
+                <li>
+                  <Link href="/#">Projects</Link>
                 </li>
                 <li>
                   <Link href="/contact">Contact</Link>

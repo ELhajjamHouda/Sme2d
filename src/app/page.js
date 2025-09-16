@@ -27,12 +27,6 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      {/* Preloader 
-      <Preloader />*/}
-
-      {/* Header Two
-      <HeaderOne /> */}
-
       {/* Hero Two */}
       <HeroTwo />
 
@@ -47,13 +41,6 @@ const page = () => {
       {/* Counter Two */}
       <CounterTwo />
 
-    {/* Portfolio Two */}
-      {/* Portfolio Two 
-      <PortfolioTwo /> */}
-
-      {/* Why Choose Us One 
-      <WhyChooseUsOne /> */}
-      
       {/* Process Area One ****/}
       <ProcessAreaOne />
 

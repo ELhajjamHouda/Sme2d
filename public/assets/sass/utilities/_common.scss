@@ -85,7 +85,8 @@
     }
     &.style3 {
         a {
-            background: $gray-color;
+            // background: $gray-color;
+            background: $theme-color;
             width: 30px;
             height: 30px;
             line-height: 32px;

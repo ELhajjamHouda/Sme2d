@@ -27,7 +27,7 @@ const ServiceAreaOne_multi_img = () => {
                   damages with your{" "}
                 </p>
                 */}
-                <Link href="/service-details" className="link-btn">
+                <Link href="/epuration-des-eaux-usees" className="link-btn">
                   En savoir plus <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -45,7 +45,7 @@ const ServiceAreaOne_multi_img = () => {
                 </div>
                 */}
                 <h4 className="service-card_title h5">
-                  <Link href="/service-details">Relevage et Pompage des Eaux</Link>
+                  <Link href="/relevage-et-pompage-des-eaux">Relevage et Pompage des Eaux</Link>
                 </h4>
                 {/*
                 <p className="service-card_text">
@@ -53,7 +53,7 @@ const ServiceAreaOne_multi_img = () => {
                   damages with your{" "}
                 </p>
                 */}
-                <Link href="/service-details" className="link-btn">
+                <Link href="/relevage-et-pompage-des-eaux" className="link-btn">
                   En savoir plus <i className="fas fa-arrow-right" />
                 </Link>
               </div>
@@ -72,7 +72,7 @@ const ServiceAreaOne_multi_img = () => {
                 */}
                 <div className="service-card_content_padding-top">
                   <h4 className="service-card_title h5">
-                    <Link href="/service-details">Traitement de l'air</Link>
+                    <Link href="/traitement-de-l-air">Traitement de l'air</Link>
                   </h4>
                   {/*
                   <p className="service-card_text">
@@ -80,7 +80,7 @@ const ServiceAreaOne_multi_img = () => {
                     damages with your{" "}
                   </p>
                   */}
-                  <Link href="/service-details" className="link-btn">
+                  <Link href="/traitement-de-l-air" className="link-btn">
                     En savoir plus <i className="fas fa-arrow-right" />
                   </Link>
                 </div>
@@ -100,7 +100,7 @@ const ServiceAreaOne_multi_img = () => {
                 */}
                 <div className="service-card_content_padding-top">
                   <h4 className="service-card_title h5">
-                    <Link href="/service-details">Électricité et Automatisme</Link>
+                    <Link href="/electricite-et-automatisme">Électricité et Automatisme</Link>
                   </h4>
                   {/*
                   <p className="service-card_text">
@@ -108,7 +108,7 @@ const ServiceAreaOne_multi_img = () => {
                     damages with your{" "}
                   </p>
                   */}
-                    <Link href="/service-details" className="link-btn">
+                    <Link href="/electricite-et-automatisme" className="link-btn">
                       En savoir plus <i className="fas fa-arrow-right" />
                     </Link>
                 </div>
@@ -153,7 +153,7 @@ const ServiceAreaOne_multi_img = () => {
                 </div>
                 */}
                 <h4 className="service-card_title h5">
-                  <Link href="/service-details">Bureau d’Études Intégré</Link>
+                  <Link href="/bureau-d-etudes-integre">Bureau d’Études Intégré</Link>
                 </h4>
                 {/*
                 <p className="service-card_text">
@@ -161,7 +161,7 @@ const ServiceAreaOne_multi_img = () => {
                   damages with your{" "}
                 </p>
                 */}
-                <Link href="/service-details" className="link-btn">
+                <Link href="/bureau-d-etudes-integre" className="link-btn">
                   En savoir plus <i className="fas fa-arrow-right" />
                 </Link>
               </div>
