@@ -1,6 +1,6 @@
-import Breadcrumb from "@/components/Breadcrumb";
-import BlogAreaList from "@/components/BlogAreaList";
-import Preloader from "@/helper/Preloader";
+import Breadcrumb from "../../components/Breadcrumb";
+import BlogAreaList from "../../components/BlogAreaList";
+import Preloader from "../../helper/Preloader";
 
 export const metadata = {
   title: "Station de Prétraitement des Rejets Industriels – Usine SILDA | Seoul Construction | sme2d",

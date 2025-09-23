@@ -1,6 +1,6 @@
-import Breadcrumb from "@/components/Breadcrumb";
-import BlogAreaList from "@/components/BlogAreaList";
-import Preloader from "@/helper/Preloader";
+import Breadcrumb from "../../components/Breadcrumb";
+import BlogAreaList from "../../components/BlogAreaList";
+import Preloader from "../../helper/Preloader";
 
 export const metadata = {
   title: "Station d’Épuration – Complexe Résidentiel & Touristique | Seoul Construction | sme2d",

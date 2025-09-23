@@ -1,22 +1,30 @@
 "use client"
+import { DiAptana } from "react-icons/di";
+import { FaUser, FaArrowRight } from "react-icons/fa"; 
 import Link from "next/link";
 import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 const AboutOne = () => {
   return (
-    <div className="about-area-1 space-bottom ">
+    <div className="about-area-1 ">
       <div className="about1-shape-img shape-mockup">
-        <img
+        {/* <img
           className="about1-shape-img-1 spin"
           src="assets/img/normal/about_shape1-2.svg"
           alt="sme2d"
-        />
-        <img
+        />  */}
+        <Link href="/blog" className="about1-shape-img-1 spin d-flex align-items-center justify-content-center">
+          <DiAptana size={80} color="#0aa1d5" />
+        </Link>
+        {/* <img
           className="about1-shape-img-2 spin2"
           src="assets/img/normal/about_shape1-1.svg"
           alt="sme2d"
-        />
+        /> */}
+        <Link href="/blog" className="about1-shape-img-1 spin d-flex align-items-center justify-content-center">
+          <DiAptana size={80} color="#0aa1d5" />
+        </Link>
       </div>
       <div className="container">
         <div className="row gx-60 align-items-center">

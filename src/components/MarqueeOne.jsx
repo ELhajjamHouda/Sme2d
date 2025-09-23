@@ -15,7 +15,7 @@ const MarqueeOne = () => {
                     src="assets/img/icon/marquee-icon-1-1.svg"
                     alt="sme2d"
                   />
-                  <span>SME2D</span>
+                  <span className="text-stroke-Two">SME2D</span>
                 </Link>
               </div>
               <div className="item">

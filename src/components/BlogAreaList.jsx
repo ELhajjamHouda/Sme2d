@@ -1,7 +1,7 @@
 
 "use client";
 import Link from "next/link"; 
-import CategoryAreaOne from "@/components/CategoryAreaOne";
+import CategoryAreaOne from "./CategoryAreaOne";
 
 const BlogAreaList = ({
   imageUrl,

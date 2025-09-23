@@ -1,9 +1,12 @@
-import BootstrapInit from "@/helper/BootstrapInit";
+// 'use client'
+import BootstrapInit from "../helper/BootstrapInit";
 import "./font.css";
-import Preloader from "@/helper/Preloader";
-import HeaderOne from "@/components/HeaderOne";
-import FooterAreaTwo from "@/components/FooterAreaTwo";
+import Preloader from "../helper/Preloader";
+import HeaderOne from "../components/HeaderOne";
+import FooterAreaTwo from "../components/FooterAreaTwo";
 import "./globals.scss";
+import "leaflet/dist/leaflet.css";
+import "../../public/assets/css/map-styles.css";
 
 export const metadata = {
   title: "sme2d - Car Repair & Auto Services NEXT Js Template",

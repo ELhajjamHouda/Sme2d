@@ -1,6 +1,6 @@
-import Breadcrumb from "@/components/Breadcrumb";
-import BlogAreaList from "@/components/BlogAreaList";
-import Preloader from "@/helper/Preloader";
+import Breadcrumb from "../../components/Breadcrumb";
+import BlogAreaList from "../../components/BlogAreaList";
+import Preloader from "../../helper/Preloader";
 
 export const metadata = {
   title: "Station d’Épuration des Eaux Usées – Industrie Pharmaceutique SPIMACO | Seoul Construction | sme2d",

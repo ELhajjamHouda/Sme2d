@@ -49,7 +49,7 @@ const ContactArea = () => {
                   <i className="fas fa-map-marker-alt" />
                 </div>
                 <h6 className="contact-info_title">Adresse</h6>
-                <p className="contact-info_text">Lot xxx Zone Industriel Sud Ouest</p>
+                <p className="contact-info_text">80 lotiss. Al Amane , El Alia</p>
                 <p className="contact-info_text">Mohammedia, Maroc</p>
               </div>
             </div>

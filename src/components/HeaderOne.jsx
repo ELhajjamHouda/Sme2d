@@ -67,7 +67,7 @@ const HeaderOne = () => {
                     </li>
                     <li>
                       <i className="fas fa-map-marker-alt" />
-                      Lot xxx Zone Industriel Sud Ouest Mohammedia
+                      80 lotiss Al Amane , El Alia - Mohammedia
                     </li>
                     <li>
                       <i className="fas fa-clock" />

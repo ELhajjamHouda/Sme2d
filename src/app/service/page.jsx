@@ -1,11 +1,11 @@
-import Breadcrumb from "@/components/Breadcrumb";
-import FooterAreaTwo from "@/components/FooterAreaTwo";
-import HeaderOne from "@/components/HeaderOne";
-import HeroThree from "@/components/HeroThree";
-import IntroAreaOne from "@/components/IntroAreaOne";
-import ServiceAreaOne_multi_img from "@/components/ServiceAreaOne_multi_img";
-import SubscribeOne from "@/components/SubscribeOne";
-import Preloader from "@/helper/Preloader";
+import Breadcrumb from "../../components/Breadcrumb";
+import FooterAreaTwo from "../../components/FooterAreaTwo";
+import HeaderOne from "../../components/HeaderOne";
+import HeroThree from "../../components/HeroThree";
+import IntroAreaOne from "../../components/IntroAreaOne";
+import ServiceAreaOne_multi_img from "../../components/ServiceAreaOne_multi_img";
+import SubscribeOne from "../../components/SubscribeOne";
+import Preloader from "../../helper/Preloader";
 
 export const metadata = {
   title: "Service || sme2d - Car Repair & Auto Services NEXT Js Template",

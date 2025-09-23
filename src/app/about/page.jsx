@@ -1,20 +1,21 @@
 
-import AboutFour from "@/components/AboutFour";
-import AboutOne from "@/components/AboutOne";
-import AboutThree from "@/components/AboutThree";
-import AboutTwo from "@/components/AboutTwo";
-import TeamDetails from "@/components/TeamDetails";
-import Breadcrumb from "@/components/Breadcrumb";
-import CTAAreaOne from "@/components/CTAAreaOne";
-import MarqueeOne from "@/components/MarqueeOne";
-import FooterAreaTwo from "@/components/FooterAreaTwo";
-import FaqAreaTwo from "@/components/FaqAreaTwo";
-import HeaderOne from "@/components/HeaderOne";
-import ProcessAreaOne from "@/components/ProcessAreaOne";
-import SubscribeOne from "@/components/SubscribeOne";
-import TeamAreaTwo from "@/components/TeamAreaTwo";
-import TestimonialOne from "@/components/TestimonialOne";
-import Preloader from "@/helper/Preloader";
+ import AboutFour from "../../components/AboutFour";
+import AboutOne from "../../components/AboutOne";
+import AboutThree from "../../components/AboutThree";
+import AboutTwo from "../../components/AboutTwo";
+import TeamDetails from "../../components/TeamDetails";
+import Breadcrumb from "../../components/Breadcrumb";
+import CTAAreaOne from "../../components/CTAAreaOne";
+import MarqueeOne from "../../components/MarqueeOne";
+import ClientAreaFour from "../../components/ClientAreaFour";
+import FaqAreaTwo from "../../components/FaqAreaTwo";
+import FaqAreaTwoTwo from "../../components/FaqAreaTwoTwo";
+import HeaderOne from "../../components/HeaderOne";
+import ProcessAreaOne from "../../components/ProcessAreaOne";
+import SubscribeOne from "../../components/SubscribeOne";
+import TeamAreaTwo from "../../components/TeamAreaTwo";
+import TestimonialOne from "../../components/TestimonialOne";
+import Preloader from "../../helper/Preloader";
 
 export const metadata = {
   title: "About || Fixturbo - Car Repair & Auto Services NEXT Js Template",
@@ -51,8 +52,11 @@ const page = () => {
       {/* Process Area One   *****
       <ProcessAreaOne />*/}
 
-      {/* CTA Area One */}
-      <CTAAreaOne /> 
+      {/* ClientAreaFour  
+      <ClientAreaFour/> **************************/}
+
+      {/* Process Area One   
+      <FaqAreaTwoTwo />**/} 
 
       {/* Testimonial One */}
       <TestimonialOne />

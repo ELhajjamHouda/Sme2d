@@ -1,7 +1,9 @@
 "use client";
-// import { IconName } from "react-icons/di";
+import { DiAptana } from "react-icons/di";
+import { FaUser, FaArrowRight } from "react-icons/fa"; 
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 const BlogAreaTwo = () => {
   return (
     <section className="blog-area space-bottom">
@@ -16,6 +18,7 @@ const BlogAreaTwo = () => {
             </div>
           </div>
         </div>
+
         <div className="row global-carousel blog-slider slider-shadow">
           <Swiper
             loop={true}
@@ -30,237 +33,83 @@ const BlogAreaTwo = () => {
             autoplay={{ delay: 6000 }}
             className="mySwiper"
             breakpoints={{
-              0: {
-                slidesPerView: 1,
-              },
-              768: {
-                slidesPerView: 2,
-              },
-              992: {
-                slidesPerView: 3,
-              },
-              1200: {
-                slidesPerView: 3,
-              },
-              1400: {
-                slidesPerView: 3,
-              },
+              0: { slidesPerView: 1 },
+              768: { slidesPerView: 2 },
+              992: { slidesPerView: 3 },
+              1200: { slidesPerView: 3 },
+              1400: { slidesPerView: 3 },
             }}
           >
+            {/* Slide 1 */}
             <SwiperSlide>
-              <div>
-                <div className="blog-card style2">
-                  <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_1.png" alt="sme2d" />
-                                        {/*
-                    <div className="blog-date">
-                      <Link href="/blog">
-                        <span>17</span>Feb
-                      </Link>
-                    </div>
-                    */}
-                  </div>
-                  <div className="blog-content">
-                    <div className="blog-meta">
-                      <Link href="/blog">
-                        <i className="fas fa-user" />
-                        MBBR
-                      </Link>
-                      {/* <Link href="/blog">
-                        <i className="fas fa-comments" />
-                        XX client
-                      </Link> */}
-                    </div>
-                    <h3 className="blog-title">
-                      <Link href="/blog-details">
-                        STATION D’ÉPURATION DE PRISON LOCAL D’EL ARJAT 1 
-                      </Link>
-                    </h3>
-                    <Link className="link-btn style3" href="/blog-details">
-                      En savoir plus <i className="fas fa-arrow-right ms-2" />
+              <div className="blog-card style2">
+                <div className="blog-img">
+                  <img src="assets/img/blog/blog_s2_1.png" alt="sme2d" />
+                </div>
+                <div className="blog-content">
+                  <div className="blog-meta">
+                    <Link href="/blog" className="d-flex align-items-center">
+                      <DiAptana style={{ marginRight: "5px" }} /> MBBR
                     </Link>
                   </div>
+                  <h3 className="blog-title">
+                    <Link href="/blog-details">
+                      STATION D’ÉPURATION DE PRISON LOCAL D’EL ARJAT 1
+                    </Link>
+                  </h3>
+                  <Link className="link-btn style3" href="/blog-details">
+                    En savoir plus <FaArrowRight className="ms-2" />
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>
+
+            {/* Slide 2 */}
             <SwiperSlide>
-              <div>
-                <div className="blog-card style2">
-                  <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_2.png" alt="sme2d" />
-                                        {/*
-                    <div className="blog-date">
-                      <Link href="/blog">
-                        <span>17</span>Feb
-                      </Link>
-                    </div>
-                    */}
-                  </div>
-                  <div className="blog-content">
-                    <div className="blog-meta">
-                      <Link href="/blog">
-                         <i className="fas fa-user" /> 
-                        SBR
-                      </Link>
-                      {/* <Link href="/blog">
-                         <i className="fas fa-comments" /> 
-                        XX client
-                      </Link> */}
-                    </div>
-                    <h3 className="blog-title">
-                      <Link href="/blog-details">
-                        STATION D’ÉPURATION D’UN COMPLEXE RÉSIDENTIEL ET TOURISTIQUE 
-                        SEOUL CONSTRUCTION- A SOUELEM TRIFIA 
-                      </Link>
-                    </h3>
-                    <Link className="link-btn style3" href="/blog-details">
-                      En savoir plus <i className="fas fa-arrow-right ms-2" />
+              <div className="blog-card style2">
+                <div className="blog-img">
+                  <img src="assets/img/blog/blog_s2_2.png" alt="sme2d" />
+                </div>
+                <div className="blog-content">
+                  <div className="blog-meta">
+                    <Link href="/blog" className="d-flex align-items-center">
+                      <DiAptana style={{ marginRight: "5px" }} /> SBR
                     </Link>
                   </div>
+                  <h3 className="blog-title">
+                    <Link href="/blog-details">
+                      STATION D’ÉPURATION D’UN COMPLEXE RÉSIDENTIEL ET
+                      TOURISTIQUE SEOUL CONSTRUCTION- A SOUELEM TRIFIA
+                    </Link>
+                  </h3>
+                  <Link className="link-btn style3" href="/blog-details">
+                    En savoir plus <FaArrowRight className="ms-2" />
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>
+
+            {/* Slide 3 */}
             <SwiperSlide>
-              <div>
-                <div className="blog-card style2">
-                  <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_3.png" alt="sme2d" />
-                                        {/*
-                    <div className="blog-date">
-                      <Link href="/blog">
-                        <span>17</span>Feb
-                      </Link>
-                    </div>
-                    */}
-                  </div>
-                  <div className="blog-content">
-                    <div className="blog-meta">
-                      <Link href="/blog">
-                        <i className="fas fa-user" />
-                        Physico-chimique 
-                      </Link>
-                      {/* <Link href="/blog">
-                        <i className="fas fa-comments" />
-                        XX client
-                      </Link> */}
-                    </div>
-                    <h3 className="blog-title">
-                      <Link href="/blog-details">
-                        STATION DE PRÉTRAITEMENT DES REJETS INDUSTRIELS DE L’USINE SILDA
-                      </Link>
-                    </h3>
-                    <Link className="link-btn style3" href="/blog-details">
-                      En savoir plus <i className="fas fa-arrow-right ms-2" />
-                    </Link>
-                  </div>
+              <div className="blog-card style2">
+                <div className="blog-img">
+                  <img src="assets/img/blog/blog_s2_3.png" alt="sme2d" />
                 </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="blog-card style2">
-                  <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_1.png" alt="sme2d" />
-                                        {/*
-                    <div className="blog-date">
-                      <Link href="/blog">
-                        <span>17</span>Feb
-                      </Link>
-                    </div>
-                    */}
+                <div className="blog-content">
+                  <div className="blog-meta">
+                    <Link href="/blog" className="d-flex align-items-center">
+                      <DiAptana style={{ marginRight: "5px" }} /> Physico-chimique
+                    </Link>                    
                   </div>
-                  <div className="blog-content">
-                    <div className="blog-meta">
-                      <Link href="/blog">
-                        <i className="fas fa-user" />
-                        By admin
-                      </Link>
-                      <Link href="/blog">
-                        <i className="fas fa-comments" />
-                        Comments (05)
-                      </Link>
-                    </div>
-                    <h3 className="blog-title">
-                      <Link href="/blog-details">
-                        STATIONS MONOBLOCS DÉMINÉRALISATION SIDI IFNI – 2 x 10 L/S
-                      </Link>
-                    </h3>
-                    <Link className="link-btn style3" href="/blog-details">
-                      En savoir plus <i className="fas fa-arrow-right ms-2" />
+                  <h3 className="blog-title">
+                    <Link href="/blog-details">
+                      STATION DE PRÉTRAITEMENT DES REJETS INDUSTRIELS DE L’USINE
+                      SILDA
                     </Link>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="blog-card style2">
-                  <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_2.png" alt="sme2d" />
-                                        {/*
-                    <div className="blog-date">
-                      <Link href="/blog">
-                        <span>17</span>Feb
-                      </Link>
-                    </div>
-                    */}
-                  </div>
-                  <div className="blog-content">
-                    <div className="blog-meta">
-                      <Link href="/blog">
-                        <i className="fas fa-user" />
-                        By admin
-                      </Link>
-                      <Link href="/blog">
-                        <i className="fas fa-comments" />
-                        Comments (05)
-                      </Link>
-                    </div>
-                    <h3 className="blog-title">
-                      <Link href="/blog-details">
-                        STATIONS MONOBLOCS DÉMINÉRALISATION SIDI IFNI – 2 x 10 L/S
-                      </Link>
-                    </h3>
-                    <Link className="link-btn style3" href="/blog-details">
-                      En savoir plus <i className="fas fa-arrow-right ms-2" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div>
-                <div className="blog-card style2">
-                  <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_3.png" alt="sme2d" />
-                                        {/*
-                    <div className="blog-date">
-                      <Link href="/blog">
-                        <span>17</span>Feb
-                      </Link>
-                    </div>
-                    */}
-                  </div>
-                  <div className="blog-content">
-                    <div className="blog-meta">
-                      <Link href="/blog">
-                        <i className="fas fa-user" />
-                        By admin
-                      </Link>
-                      <Link href="/blog">
-                        <i className="fas fa-comments" />
-                        Comments (05)
-                      </Link>
-                    </div>
-                    <h3 className="blog-title">
-                      <Link href="/blog-details">
-                        STATIONS MONOBLOCS DÉMINÉRALISATION SIDI IFNI – 2 x 10 L/S
-                      </Link>
-                    </h3>
-                    <Link className="link-btn style3" href="/blog-details">
-                      En savoir plus <i className="fas fa-arrow-right ms-2" />
-                    </Link>
-                  </div>
+                  </h3>
+                  <Link className="link-btn style3" href="/blog-details">
+                    En savoir plus <FaArrowRight className="ms-2" />
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>

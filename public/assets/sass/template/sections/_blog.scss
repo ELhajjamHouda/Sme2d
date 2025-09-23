@@ -172,7 +172,9 @@ blockquote,
     }
 }
 .blog-meta {
-    display: block;
+    display: flex;               /* نستعمل flex بدل block */
+    justify-content: center;     /* نوسّط أفقياً */
+    align-items: center;         /* نوسّط عمودياً */
     margin-top: -0.4em;
     span,
     a {

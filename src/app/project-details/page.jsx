@@ -1,9 +1,9 @@
-import Breadcrumb from "@/components/Breadcrumb";
-import FooterAreaTwo from "@/components/FooterAreaTwo";
-import HeaderOne from "@/components/HeaderOne";
-import ProjectDetailsArea from "@/components/ProjectDetailsArea";
-import SubscribeOne from "@/components/SubscribeOne";
-import Preloader from "@/helper/Preloader";
+import Breadcrumb from "../../components/Breadcrumb";
+import FooterAreaTwo from "../../components/FooterAreaTwo";
+import HeaderOne from "../../components/HeaderOne";
+import ProjectDetailsArea from "../../components/ProjectDetailsArea";
+import SubscribeOne from "../../components/SubscribeOne";
+import Preloader from "../../helper/Preloader";
 
 export const metadata = {
   title: "Project Details || sme2d - Car Repair & Auto Services NEXT Js Template",
