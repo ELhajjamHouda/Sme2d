@@ -8,34 +8,41 @@ import Link from "next/link";
 
 const services = [
   {
-    title: "TRAITEMENT DES EAUX",
-    imgBg: "assets/img/portfolio/portfolio-1.png",
+    title: "ÉPURATION DES EAUX USÉES",
+    // imgBg: "assets/img/portfolio/portfolio-1.png",
+    imgBg: "/assets/img/service/epuration-des-eaux-Usees-1.svg",
     icon: "assets/img/icon/service-icon_1-1.svg",
+    href: "/epuration-des-eaux-usees",       
   },
   {
     title: "POMPAGE & RELEVAGE",
     imgBg: "assets/img/portfolio/portfolio-2.png",
     icon: "assets/img/icon/service-icon_1-2.svg",
+    href: "/relevage-et-pompage-des-eaux",
   },
   {
-    title: "ÉPURATION DES EAUX",
-    imgBg: "assets/img/portfolio/portfolio-3.png",
+    title: "TRAITEMENT DE L’AIR",
+    imgBg: "assets/img/service/traitement-de-l-air-1.png",
     icon: "assets/img/icon/service-icon_1-3.svg",
+    href: "/traitement-de-l-air",
   },
   {
-    title: "Service Après-Vente et Exploitation",
+    title: "SERVICE APRÈS-VENTE ET EXPLOITATION",
     imgBg: "assets/img/portfolio/portfolio-4.png",
     icon: "assets/img/icon/service-icon_1-3.svg",
+    href: "/service-apres-vente-et-exploitation",
   },
   {
-    title: "Bureau d’Études Intégré",
+    title: "BUREAU D’ÉTUDES INTÉGRÉ",
     imgBg: "assets/img/portfolio/portfolio-5.png",
     icon: "assets/img/icon/service-icon_1-3.svg",
+    href: "/bureau-d-etudes-integre",
   },
   {
-    title: "Électricité et Automatisme",
+    title: "ÉLECTRICITÉ ET AUTOMATISME",
     imgBg: "assets/img/portfolio/portfolio-6.png",
     icon: "assets/img/icon/service-icon_1-3.svg",
+    href: "/electricite-et-automatisme",
   },
 ];
 
@@ -70,8 +77,8 @@ const ServiceAreaTwo = () => {
           navigation
           loop
           autoplay={{
-            delay: 3000, // délai entre chaque slide en ms
-            disableOnInteraction: false, // continue autoplay même après interaction
+            delay: 3000,
+            disableOnInteraction: false,
           }}
         >
           {services.map((service, index) => (
@@ -82,16 +89,15 @@ const ServiceAreaTwo = () => {
                   style={{ backgroundImage: `url(${service.imgBg})` }}
                 >
                   <div>
-                    <div className="service-card_icon">
-                      <img src={service.icon} alt={service.title} />
-                    </div>
                     <h4 className="service-card_title h5">
-                      <Link href="/service-details">{service.title}</Link>
+                      {/* 👇 utilisation du href propre à chaque service */}
+                      <Link href={service.href}>{service.title}</Link>
                     </h4>
                     <p className="service-card_text">SME2D</p>
                   </div>
                 </div>
-                <Link href="/service-details" className="btn style4">
+
+                <Link href={service.href} className="btn style4">
                   En savoir plus <i className="fas fa-arrow-right" />
                 </Link>
               </div>

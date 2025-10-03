@@ -1,11 +1,19 @@
 'use client';
 
 import React, { useState } from 'react';
-import ProjectMap from '../../components/ProjectMap';
+import Breadcrumb from "../../components/Breadcrumb";
+
+import dynamic from "next/dynamic";
+
+const ProjectMap = dynamic(() => import('../../components/ProjectMap'), {
+  ssr: false, // هادي كتخلي الماب غير يتحمل فالـ client
+});
+import ProductAreaOne from '../../components/ProductAreaOne';
+
 
 const ProjectMapDemoPage = () => {
-  const [selectedMapStyle, setSelectedMapStyle] = useState('default');
-  const [showUserLocation, setShowUserLocation] = useState(false);
+  // const [selectedMapStyle, setSelectedMapStyle] = useState('default');
+  // const [showUserLocation, setShowUserLocation] = useState(false);
 
   // Sample project data - Morocco locations
   const sampleProjects = [
@@ -101,7 +109,17 @@ const ProjectMapDemoPage = () => {
   };
 
   return (
+
     <div className="min-h-screen bg-gray-50">
+      {/* Breadcrumb */}
+          <Breadcrumb
+          title="Projects"
+          imageHeader="/assets/img/hero/project-1.jpeg"
+          />
+          
+      {/*ProductAreaOne */}
+      <ProductAreaOne />
+
       <div className="container mx-auto px-4 py-8">
         {/* <div className="text-center mb-8">
           <h1 className="text-4xl font-bold mb-4">Morocco Project Map</h1>
@@ -111,7 +129,7 @@ const ProjectMapDemoPage = () => {
         </div> */}
 
         {/* Controls */}
-        <div className="mb-8 p-6 bg-white rounded-lg shadow-sm">
+        {/* <div className="mb-8 p-6 bg-white rounded-lg shadow-sm">
           <h2 className="text-2xl font-semibold mb-4">Map Controls</h2>
           <div className="flex flex-wrap gap-4 items-center">
             <div>
@@ -140,15 +158,15 @@ const ProjectMapDemoPage = () => {
               </label>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Project Map */}
         <div className="mb-8">
           <div className="bg-white rounded-lg shadow-sm overflow-hidden">
             <div className="p-4 border-b border-gray-200">
-              <h2 className="text-xl font-semibold">Morocco Project Locations</h2>
+              {/* <h2 className="text-xl font-semibold">Morocco Project Locations</h2> */}
               <p className="text-sm text-gray-600 mt-1">
-                Click on any marker to view project details and navigate to the project page
+                Cliquez sur n'importe quel marqueur pour afficher les détails du projet et accéder à sa page.
               </p>
             </div>
             <div className="relative">
@@ -157,8 +175,8 @@ const ProjectMapDemoPage = () => {
                 zoom={6}
                 projects={sampleProjects}
                 height="600px"
-                mapStyle={selectedMapStyle}
-                showUserLocation={showUserLocation}
+                // mapStyle={selectedMapStyle}
+                // showUserLocation={showUserLocation}
                 onProjectClick={handleProjectClick}
                 onMapClick={handleMapClick}
               />

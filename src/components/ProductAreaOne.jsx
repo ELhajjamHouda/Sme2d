@@ -34,10 +34,10 @@ const ProductAreaOne = () => {
     isotope.current?.arrange({ filter: `${key}` });
   };
   return (
-    <div className="product-area-1 space-top bg-smoke overflow-hidden">
+    <div className="space-top overflow-hidden">
       <div className="container">
         <div className="title-area text-center mb-20">
-          <h3 className="sec-title">Featured Products</h3>
+          <h3 className="sec-title">Découvrez Nos Projets</h3>
         </div>
         <div className="portfolio-tab-1 mb-45">
           <div className="filter-menu-active text-center">
@@ -46,25 +46,32 @@ const ProductAreaOne = () => {
               type="button"
               onClick={() => handleFilterKeyChange("*", 1)}
             >
-              Featured Products
+              Pompage & Relevage 
             </button>
             <button
               className={`${active === 2 && "active"}  btn style-border3`}
               type="button"
               onClick={() => handleFilterKeyChange(".cat1", 2)}
             >
-              Windshield{" "}
+              Épuration domestique{" "}
             </button>
             <button
               className={`${active === 3 && "active"}  btn style-border3`}
               type="button"
               onClick={() => handleFilterKeyChange(".cat2", 3)}
             >
-              Engine pistons
+              Traitement industriel des eaux
+            </button>
+            <button
+              className={`${active === 3 && "active"}  btn style-border3`}
+              type="button"
+              onClick={() => handleFilterKeyChange(".cat2", 3)}
+            >
+              Autres
             </button>
           </div>
         </div>
-        <div className="row gy-30 gx-30 masonary-active filter-container">
+        {/* <div className="row gy-30 gx-30 masonary-active filter-container">
           <div className="col-lg-3 col-sm-6 filter-item cat2">
             <div className="product-card image-container">
               <div className="product-img">
@@ -304,7 +311,7 @@ const ProductAreaOne = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

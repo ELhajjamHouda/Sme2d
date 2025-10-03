@@ -39,7 +39,8 @@ const page = () => {
       {/* IntroAreaOne */}
       <IntroAreaOne />
 
-      {/* Subscribe One */}
+        {/* FaqAreaThree */}
+        FaqAreaThree
       {/* Subscribe One */}
 
       {/* Footer Area One 

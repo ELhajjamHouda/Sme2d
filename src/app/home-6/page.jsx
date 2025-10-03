@@ -1,16 +1,16 @@
 
-import BlogAreaTwo from "@/components/BlogAreaTwo";
-import CTAAreaTwo from "@/components/CTAAreaTwo";
-import CategoryAreaOne from "@/components/CategoryAreaOne";
-import ClientAreaFour from "@/components/ClientAreaFour";
-import FaqAreaThree from "@/components/FaqAreaThree";
-import FooterAreaFour from "@/components/FooterAreaFour";
-import HeaderFive from "@/components/HeaderFive";
-import HeroSix from "@/components/HeroSix";
-import ProductAreaOne from "@/components/ProductAreaOne";
-import ProductAreaTwo from "@/components/ProductAreaTwo";
-import SubscribeTwo from "@/components/SubscribeTwo";
-import Preloader from "@/helper/Preloader";
+import BlogAreaTwo from "../../components/BlogAreaTwo";
+import CTAAreaTwo from "../../components/CTAAreaTwo";
+import CategoryAreaOne from "../../components/CategoryAreaOne";
+import ClientAreaFour from "../../components/ClientAreaFour";
+import FaqAreaThree from "../../components/FaqAreaThree";
+import FooterAreaFour from "../../components/FooterAreaFour";
+import HeaderFive from "../../components/HeaderFive";
+import HeroSix from "../../components/HeroSix";
+import ProductAreaOne from "../../components/ProductAreaOne";
+import ProductAreaTwo from "../../components/ProductAreaTwo";
+import SubscribeTwo from "../../components/SubscribeTwo";
+import Preloader from "../../helper/Preloader";
 
 export const metadata = {
   title: "Home || sme2d - Car Repair & Auto Services NEXT Js Template",

@@ -18,7 +18,7 @@ const TeamDetails = () => {
               <div className="col-lg-6 order-lg-1 order-2 ps-lg-4">
                 <div className="faq-thumb2 text-center">
                   <img
-                    src="assets/img/normal/faq-thumb-2-1.png"
+                    src="assets/img/normal/sme2d_Image.png"
                     alt="sme2d"
                     className="img-fluid"
                   />

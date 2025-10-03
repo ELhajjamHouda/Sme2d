@@ -6,10 +6,11 @@ import SubscribeOne from "../../components/SubscribeOne";
 import Preloader from "../../helper/Preloader";
 
 export const metadata = {
-  title: "traitement-de-l'air || Maintenance, Support & Suivi Client - SME2D",
+  title: "Traitement de l’air || Solutions de Désodorisation & Filtration - SME2D",
   description:
-    "SME2D propose un service après-vente complet avec maintenance préventive et corrective, un stock permanent de pièces détachées, et des prestations d’exploitation pour stations de traitement, relevage et pompage. Garantissez la fiabilité et la performance de vos installations avec notre équipe dédiée."
+    "Découvrez les solutions SME2D pour le traitement de l’air : désodorisation, filtration et lavage chimique des gaz. Réduisez les nuisances olfactives et respectez les normes environnementales grâce à nos systèmes performants.",
 };
+
 
 const Page = () => {
   return (
@@ -19,13 +20,13 @@ const Page = () => {
 
       {/* Breadcrumb */}
       <Breadcrumb
-        title="Service Après-vente et exploitation"
+        title="Traitement de l'air"
         imageHeader="/assets/img/hero/traitement-de-l-air.png"
       />
 
       {/* Service Details */}
       <ServiceDetails
-        Title1="Service après-vente et exploitation"
+        Title1="Traitement de l'air"
         Para1={
           <>
             <p>

@@ -164,7 +164,7 @@ const HeaderOne = () => {
                         </ul>
                       </li>
                       <li>
-                        <Link href="/#">Projects</Link>
+                        <Link href="/project">Projects</Link>
                       </li>
                       <li>
                         <Link href="/contact">Contact</Link>
@@ -252,7 +252,7 @@ const HeaderOne = () => {
                   </ul>
                 </li>
                 <li>
-                  <Link href="/#">Projects</Link>
+                  <Link href="/project">Projects</Link>
                 </li>
                 <li>
                   <Link href="/contact">Contact</Link>

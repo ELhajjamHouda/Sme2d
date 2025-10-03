@@ -9,12 +9,12 @@ const ProcessAreaOne = () => {
       <div className="portfolio-shape-img shape-mockup d-lg-block d-none">
         <img
           className="about1-shape-img-1 spin"
-          src="/assets/img/normal/about_shape1-2.png"
+          src="/assets/img/normal/Logo_sme2d.jpeg"
           alt="sme2d"
         />
         <img
           className="about1-shape-img-2 spin2"
-          src="/assets/img/normal/about_shape1-2.png"
+          src="/assets/img/normal/Logo_sme2d.jpeg"
           alt="sme2d"
         />
       </div>

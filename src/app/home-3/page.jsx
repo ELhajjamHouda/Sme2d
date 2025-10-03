@@ -1,19 +1,19 @@
-import AboutThree from "@/components/AboutThree";
-import BlogAreaThree from "@/components/BlogAreaThree";
-import CTAAreaOne from "@/components/CTAAreaOne";
-import FaqAreaTwo from "@/components/FaqAreaTwo";
-import FeatureAreaOne from "@/components/FeatureAreaOne";
-import FooterAreaTwo from "@/components/FooterAreaTwo";
-import HeaderOne from "@/components/HeaderOne";
-import HeroThree from "@/components/HeroThree";
-import IntroAreaOne from "@/components/IntroAreaOne";
-import MarqueeOne from "@/components/MarqueeOne";
-import PortfolioTwo from "@/components/PortfolioTwo";
-import ServiceAreaOne from "@/components/ServiceAreaOne";
-import SubscribeOne from "@/components/SubscribeOne";
-import TeamAreaThree from "@/components/TeamAreaThree";
-import TestimonialOne from "@/components/TestimonialOne";
-import Preloader from "@/helper/Preloader";
+import AboutThree from "../../components/AboutThree";
+import BlogAreaThree from "../../components/BlogAreaThree";
+import CTAAreaOne from "../../components/CTAAreaOne";
+import FaqAreaTwo from "../../components/FaqAreaTwo";
+import FeatureAreaOne from "../../components/FeatureAreaOne";
+import FooterAreaTwo from "../../components/FooterAreaTwo";
+import HeaderOne from "../../components/HeaderOne";
+import HeroThree from "../../components/HeroThree";
+import IntroAreaOne from "../../components/IntroAreaOne";
+import MarqueeOne from "../../components/MarqueeOne";
+import PortfolioTwo from "../../components/PortfolioTwo";
+import ServiceAreaOne from "../../components/ServiceAreaOne";
+import SubscribeOne from "../../components/SubscribeOne";
+import TeamAreaThree from "../../components/TeamAreaThree";
+import TestimonialOne from "../../components/TestimonialOne";
+import Preloader from "../../helper/Preloader";
 
 export const metadata = {
   title: "Home || sme2d - Car Repair & Auto Services NEXT Js Template",

@@ -1,16 +1,16 @@
-import AboutOne from "@/components/AboutOne";
-import BlogAreaTwo from "@/components/BlogAreaTwo";
-import ClientAreaThree from "@/components/ClientAreaThree";
-import FooterAreaTwo from "@/components/FooterAreaTwo";
-import HeaderFour from "@/components/HeaderFour";
-import HeroFive from "@/components/HeroFive";
-import IntroAreaTwo from "@/components/IntroAreaTwo";
-import PortfolioThree from "@/components/PortfolioThree";
-import ServiceAreaFour from "@/components/ServiceAreaFour";
-import ServiceAreaThree from "@/components/ServiceAreaThree";
-import TeamAreaFour from "@/components/TeamAreaFour";
-import WhyChooseUsTwo from "@/components/WhyChooseUsTwo";
-import Preloader from "@/helper/Preloader";
+import AboutOne from "../../components/AboutOne";
+import BlogAreaTwo from "../../components/BlogAreaTwo";
+import ClientAreaThree from "../../components/ClientAreaThree";
+import FooterAreaTwo from "../../components/FooterAreaTwo";
+import HeaderFour from "../../components/HeaderFour";
+import HeroFive from "../../components/HeroFive";
+import IntroAreaTwo from "../../components/IntroAreaTwo";
+import PortfolioThree from "../../components/PortfolioThree";
+import ServiceAreaFour from "../../components/ServiceAreaFour";
+import ServiceAreaThree from "../../components/ServiceAreaThree";
+import TeamAreaFour from "../../components/TeamAreaFour";
+import WhyChooseUsTwo from "../../components/WhyChooseUsTwo";
+import Preloader from "../../helper/Preloader";
 
 export const metadata = {
   title: "Home || sme2d - Car Repair & Auto Services NEXT Js Template",

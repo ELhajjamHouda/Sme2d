@@ -64,13 +64,13 @@ const FooterAreaTwo = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <Link href="/about">Accueil</Link>
+                      <Link href="/page">Accueil</Link>
                     </li>
                     <li>
-                      <Link href="/team">À propos de nous</Link>
+                      <Link href="/about">À propos de nous</Link>
                     </li>
                     <li>
-                      <Link href="/contact">Services</Link>
+                      <Link href="/service">Services</Link>
                     </li>
                     {/* <li>
                       <Link href="/contact">xxxxx</Link>
