@@ -9,10 +9,9 @@ import Link from "next/link";
 const services = [
   {
     title: "ÉPURATION DES EAUX USÉES",
-    // imgBg: "assets/img/portfolio/portfolio-1.png",
     imgBg: "/assets/img/service/epuration-des-eaux-Usees-1.svg",
     icon: "assets/img/icon/service-icon_1-1.svg",
-    href: "/epuration-des-eaux-usees",       
+    href: "/epuration-des-eaux-usees",
   },
   {
     title: "POMPAGE & RELEVAGE",
@@ -80,6 +79,24 @@ const ServiceAreaTwo = () => {
             delay: 3000,
             disableOnInteraction: false,
           }}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            576: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 25,
+            },
+            992: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+          }}
         >
           {services.map((service, index) => (
             <SwiperSlide key={index}>
@@ -90,7 +107,6 @@ const ServiceAreaTwo = () => {
                 >
                   <div>
                     <h4 className="service-card_title h5">
-                      {/* 👇 utilisation du href propre à chaque service */}
                       <Link href={service.href}>{service.title}</Link>
                     </h4>
                     <p className="service-card_text">SME2D</p>

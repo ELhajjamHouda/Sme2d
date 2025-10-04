@@ -453,6 +453,23 @@
     font-weight: 600;
     margin-right: 6px;
   }
+
+  .whatsapp-btn {
+  background-color: #25D366; /* اللون الأخضر ديال واتساب */
+  color: white;
+  padding: 8px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe57;
+}
+
 }
 .header-grid-info {
   ul {
@@ -640,7 +657,7 @@
   }
   .header-layout1 {
     .header-logo {
-      background: $theme-color;
+      // background: $theme-color;
       padding: 25px;
       position: relative;
       &:after {
@@ -650,7 +667,7 @@
         height: calc(100% + 10px);
         top: 0;
         left: 0;
-        background: $theme-color;
+        // background: $theme-color;
         border-radius: 0 0 5px 5px;
         z-index: -1;
       }

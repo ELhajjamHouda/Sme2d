@@ -98,6 +98,22 @@ const HeaderOne = () => {
                   </ul>
                 </div>
               </div> */}
+              <div className="col-auto">
+                <div className="header-links ps-0">
+                    <ul className="social-icons">
+                      <li>
+                        <a 
+                          href="https://wa.me/212666221689" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="whatsapp-btn"
+                        >
+                          <i className="fab fa-whatsapp"></i> 
+                        </a>
+                      </li>
+                    </ul>
+                 </div>
+              </div>
             </div>
           </div>
         </div>
@@ -115,7 +131,7 @@ const HeaderOne = () => {
                 <div className="col-auto d-xl-none d-block">
                   <div className="header-logo">
                     <Link href="/">
-                      <img src="assets/img/logo-white.svg" alt="sme2d" />
+                      <img src="assets/img/logo.png" alt="sme2d" />
                     </Link>
                   </div>
                 </div>
@@ -132,7 +148,7 @@ const HeaderOne = () => {
                         <Link href="/service">Nos services</Link>
                         <ul className="sub-menu">
                           <li>
-                            <Link href="/service">
+                            <Link href="/epuration-des-eaux-usees">
                               Épuration Des Eaux Usées
                             </Link>
                           </li>
@@ -174,11 +190,12 @@ const HeaderOne = () => {
 
                   {/* Mobile button */}
                   <div className="navbar-right d-inline-flex d-lg-none">
-                    <button
-                      type="button"
-                      className="menu-toggle icon-btn"
-                      onClick={mobileMenu}
-                    >
+                  <button
+                    type="button"
+                    className="menu-toggle icon-btn"
+                    onClick={mobileMenu}
+                    style={{ color: 'black' }}
+                  >
                       <i className="fas fa-bars" />
                     </button>
                   </div>
@@ -205,7 +222,7 @@ const HeaderOne = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link href="/">
-                <img src="assets/img/logo.svg" alt="sme2d" />
+                <img src="assets/img/logo.png" alt="sme2d" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

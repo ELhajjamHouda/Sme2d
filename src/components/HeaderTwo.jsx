@@ -127,7 +127,8 @@ const HeaderOne = () => {
                       */}
                     </li>
                     <li>
-                      <Link href="/about">À propos de nous</Link> {/* /about */}
+                      <Link href="/about">À</Link> {/* /about */}
+                       {/* <Link href="/about">À propos de nous</Link>  */}
                     </li>
                     <li className="menu-item-has-children">
                       <Link href="#">Services</Link>
