@@ -148,7 +148,7 @@ const FooterAreaTwo = () => {
                       <p>Email Address</p>
                       <h6>
                         <Link href="mailto:infoname@mail.com">
-                          sme2d .sarl@gmail.com
+                         sme2d.sarl@gmail.com
                         </Link>
                         <p />
                       </h6>

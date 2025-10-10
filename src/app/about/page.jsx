@@ -1,19 +1,8 @@
-
- import AboutFour from "../../components/AboutFour";
 import AboutOne from "../../components/AboutOne";
-import AboutThree from "../../components/AboutThree";
-import AboutTwo from "../../components/AboutTwo";
 import TeamDetails from "../../components/TeamDetails";
 import Breadcrumb from "../../components/Breadcrumb";
-import CTAAreaOne from "../../components/CTAAreaOne";
 import MarqueeOne from "../../components/MarqueeOne";
-import ClientAreaFour from "../../components/ClientAreaFour";
 import FaqAreaTwo from "../../components/FaqAreaTwo";
-import FaqAreaTwoTwo from "../../components/FaqAreaTwoTwo";
-import HeaderOne from "../../components/HeaderOne";
-import ProcessAreaOne from "../../components/ProcessAreaOne";
-import SubscribeOne from "../../components/SubscribeOne";
-import TeamAreaTwo from "../../components/TeamAreaTwo";
 import TestimonialOne from "../../components/TestimonialOne";
 import Preloader from "../../helper/Preloader";
 
@@ -39,8 +28,8 @@ const page = () => {
      {/* MarqueeOne */}
      <MarqueeOne />
 
-    {/* FaqAreaTwo */}
-    <FaqAreaTwo />
+      {/* FaqAreaTwo */}
+      <FaqAreaTwo />
 
       {/* TeamDetails*/}
       <TeamDetails />
@@ -49,25 +38,8 @@ const page = () => {
       {/* About Area */}
       <AboutOne />
 
-      {/* Process Area One   *****
-      <ProcessAreaOne />*/}
-
-      {/* ClientAreaFour  
-      <ClientAreaFour/> **************************/}
-
-      {/* Process Area One   
-      <FaqAreaTwoTwo />**/} 
-
-      {/* Testimonial One */}
+     {/* Testimonial One */}
       <TestimonialOne />
-
-      {/* Team Area Two 
-      <TeamAreaTwo />*/}
-      
-      {/* Subscribe One 
-      {/* Subscribe One */}
-      
-
     </>
   );
 };

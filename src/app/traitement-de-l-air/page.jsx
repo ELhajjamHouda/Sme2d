@@ -1,9 +1,5 @@
 import Breadcrumb from "../../components/Breadcrumb";
-import FooterAreaTwo from "../../components/FooterAreaTwo";
-import HeaderOne from "../../components/HeaderOne";
 import ServiceDetails from "../../components/ServiceDetails";
-import SubscribeOne from "../../components/SubscribeOne";
-import Preloader from "../../helper/Preloader";
 
 export const metadata = {
   title: "Traitement de l’air || Solutions de Désodorisation & Filtration - SME2D",
@@ -15,8 +11,6 @@ export const metadata = {
 const Page = () => {
   return (
     <>
-      {/* Header 
-      <HeaderOne /> */}
 
       {/* Breadcrumb */}
       <Breadcrumb
@@ -51,11 +45,6 @@ const Page = () => {
         Img3="assets/img/service/traitement-de-l-air-3.png"
       />
 
-      {/* Subscribe Section */}
-      {/* Subscribe One */}
-
-      {/* Footer */}
-      {/* <FooterAreaTwo /> */}
     </>
   );
 };

@@ -1,10 +1,20 @@
 .contact-info {
   background: $white-color;
-  border-bottom: 1px solid $theme-color;
-  border-radius: 5px;
+  border-bottom: 3px solid #4facfe;
+  border-radius: 10px;
   padding: 30px;
-  box-shadow: 0px 4.4px 20px -1px rgba(19, 16, 34, 0.05);
-  text-align: center;   // ⬅️ centre les titres et textes
+  box-shadow: 0px 4px 20px -1px rgba(19, 16, 34, 0.08);
+  text-align: center;
+  height: 100%; // 🔥 toutes les box prennent la même hauteur
+  display: flex;
+  flex-direction: column;
+  justify-content: center; // centre le contenu verticalement
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 25px -1px rgba(19, 16, 34, 0.15);
+  }
 
   &_icon {
     height: 65px;
@@ -13,31 +23,36 @@
     background: #4facfe;
     font-size: 30px;
     color: $white-color;
-    border-radius: 5px;
-    margin: 0 auto 30px auto;   // ⬅️ centre le carré de l’icône
+    border-radius: 10px;
+    margin: 0 auto 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .contact-info_title {
-    font-size: 26px;
-    font-weight: 900;
+    font-size: 22px;
+    font-weight: 700;
     font-family: $title-font;
     color: $title-color;
-    margin-top: -0.3em;
+    margin-top: 0;
     margin-bottom: 10px;
   }
 
   .contact-info_text {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     font-family: $title-font;
     color: $title-color;
-    margin-bottom: 3px;
+    margin-bottom: 6px;
+    line-height: 1.6;
 
     a {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 400;
       font-family: $title-font;
       color: $title-color;
+      text-decoration: none;
 
       &:hover {
         color: $theme-color;
@@ -45,7 +60,7 @@
     }
 
     &:last-child {
-      margin-bottom: -0.4em;
+      margin-bottom: 0;
     }
   }
 }

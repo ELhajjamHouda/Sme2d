@@ -48,16 +48,16 @@ const BlogAreaTwo = () => {
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
-                    <Link href="/blog" className="d-flex align-items-center">
+                    <Link href="/station-epuration-prison-el-arjat-onee" className="d-flex align-items-center">
                       <DiAptana style={{ marginRight: "5px" }} /> MBBR
                     </Link>
                   </div>
                   <h3 className="blog-title">
-                    <Link href="/blog-details">
-                      STATION D’ÉPURATION DE PRISON LOCAL D’EL ARJAT 1
+                    <Link href="/station-epuration-prison-el-arjat-onee">
+                      STATION D’ÉPURATION DE PRISON LOCAL EL ARJAT
                     </Link>
                   </h3>
-                  <Link className="link-btn style3" href="/blog-details">
+                  <Link className="link-btn style3" href="/station-epuration-prison-el-arjat-onee">
                     En savoir plus <FaArrowRight className="ms-2" />
                   </Link>
                 </div>
@@ -72,17 +72,17 @@ const BlogAreaTwo = () => {
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
-                    <Link href="/blog" className="d-flex align-items-center">
+                    <Link href="/station-epuration-complexe-residentiel-touristique-seoul-construction-souelem-trifia" className="d-flex align-items-center">
                       <DiAptana style={{ marginRight: "5px" }} /> SBR
                     </Link>
                   </div>
                   <h3 className="blog-title">
-                    <Link href="/blog-details">
+                    <Link href="/station-epuration-complexe-residentiel-touristique-seoul-construction-souelem-trifia">
                       STATION D’ÉPURATION D’UN COMPLEXE RÉSIDENTIEL ET
                       TOURISTIQUE SEOUL CONSTRUCTION- A SOUELEM TRIFIA
                     </Link>
                   </h3>
-                  <Link className="link-btn style3" href="/blog-details">
+                  <Link className="link-btn style3" href="/station-epuration-complexe-residentiel-touristique-seoul-construction-souelem-trifia">
                     En savoir plus <FaArrowRight className="ms-2" />
                   </Link>
                 </div>
@@ -97,17 +97,17 @@ const BlogAreaTwo = () => {
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
-                    <Link href="/blog" className="d-flex align-items-center">
+                    <Link href="/station-pretraitement-rejets-industriels-usine-silda" className="d-flex align-items-center">
                       <DiAptana style={{ marginRight: "5px" }} /> Physico-chimique
                     </Link>                    
                   </div>
                   <h3 className="blog-title">
-                    <Link href="/blog-details">
+                    <Link href="/station-pretraitement-rejets-industriels-usine-silda">
                       STATION DE PRÉTRAITEMENT DES REJETS INDUSTRIELS DE L’USINE
                       SILDA
                     </Link>
                   </h3>
-                  <Link className="link-btn style3" href="/blog-details">
+                  <Link className="link-btn style3" href="/station-pretraitement-rejets-industriels-usine-silda">
                     En savoir plus <FaArrowRight className="ms-2" />
                   </Link>
                 </div>

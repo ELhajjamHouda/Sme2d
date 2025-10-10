@@ -1,8 +1,5 @@
 import Breadcrumb from "../../components/Breadcrumb";
 import ContactArea from "../../components/ContactArea";
-import FooterAreaTwo from "../../components/FooterAreaTwo";
-import HeaderOne from "../../components/HeaderOne";
-import SubscribeOne from "../../components/SubscribeOne";
 import Preloader from "../../helper/Preloader";
 
 export const metadata = {
@@ -18,23 +15,14 @@ const page = () => {
       {/* Preloader */}
        <Preloader />
 
-      {/* Header one 
-       <HeaderOne />
-
-      {/* Breadcrumb */}
+       {/* Breadcrumb */}
         <Breadcrumb
         title="Contact"
-        imageHeader="/assets/img/hero/contact.svg"
+        imageHeader="/assets/img/hero/contact.png"
          />
 
         {/* Contact Area */}
         <ContactArea />
-
-        {/* Subscribe One */}
-        {/* Subscribe One */}
-
-        {/* Footer Area One 
-        <FooterAreaTwo />*/}
         </>
   );
 };

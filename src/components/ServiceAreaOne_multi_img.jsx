@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const ServiceAreaOne_multi_img = () => {
   return (
-    <div className="service-area-1 space overflow-hidden">
+    <div className="service-area-1 space-top  overflow-hidden">
       <div className="container">
         <div className="section-title text-center mb-60">
           <h2 className="title">Nos Services</h2>

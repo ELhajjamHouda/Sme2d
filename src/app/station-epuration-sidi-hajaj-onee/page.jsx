@@ -14,27 +14,16 @@ export const metadata = {
           {/* Preloader */}
           <Preloader />
 
-          {/* Header one
-          <HeaderOne /> */}
-
-          {/* Hero Three 
-          <HeroThree /> */}
-
           {/* Breadcrumb */}
           <Breadcrumb
           title="station-epuration-sidi-hajaj-onee"
           imageHeader="/assets/img/hero/project-1.jpeg"
           />
-          {/* BlogDetails 
-          <BlogDetails/>*/}
-          
+
           {/*BlogAreaList */}
             <BlogAreaList
             imageUrl="/assets/img/projet/projet-4.png"
-    //   overlayTexts={[
-    //     "ENTRÉE D’EAU",
-    //     "ASPECT D’EAU À LA SORTIE DE LA STEP",
-    //   ]}
+
       tables={[
         {
           title: "Caractéristiques d’eau brute",
@@ -81,17 +70,7 @@ export const metadata = {
       { img: "/assets/img/projet/projet-4-1.svg", title: "PRÉPARATION ET DOSAGE CHIMIQUE " },
      ]}
     />
-      {/* CategoryAreaOne 
-      <CategoryAreaOne/> */}
-
-      {/* PortfolioOne ***
-      <PortfolioOne/>   */}
-
-      {/* Subscribe One
-      {/* Subscribe One */}
-
-      {/* Footer Area One 
-      <FooterAreaTwo /> */}
+      
     </>
   );
 };

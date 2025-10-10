@@ -34,17 +34,16 @@
   }
   @include ml {
     &:after {
-      width: 334px;
-      right: -180px;
-      top: -30px;
+      width: 240px;
+      right: -100px;
+      top: -37px;
       transform: rotate(9deg);
     }
     &:nth-child(2):after {
-      width: 336px;
-      height: 130px;
-      right: -145px;
-      top: -35px;
-      transform: rotate(4deg);
+      width: 240px;
+      right: -110px;
+      top: -37px;
+      transform: rotate(9deg);
     }
   }
   @include lg {

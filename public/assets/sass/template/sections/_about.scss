@@ -114,11 +114,10 @@
 
 // bg   
 .bg-custom {
-  background: linear-gradient(    180deg,
-    rgba(230, 240, 255, 0.9) 0%,   /* #e6f0ff شفاف شوية */
-    rgba(79, 172, 254, 1) 100% ) !important;
-  border-radius: 20px;
-  padding: 60px 0;
+background: url('/assets/img/normal/IMG.png') no-repeat center center / cover !important;
+border-radius: 20px;
+padding: 0px 0;
+
 }
 
 .about-thumb2 {

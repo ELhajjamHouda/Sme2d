@@ -1,9 +1,5 @@
 import Breadcrumb from "../../components/Breadcrumb";
-import FooterAreaTwo from "../../components/FooterAreaTwo";
-import HeaderOne from "../../components/HeaderOne";
 import ServiceDetails from "../../components/ServiceDetails";
-import SubscribeOne from "../../components/SubscribeOne";
-import Preloader from "../../helper/Preloader";
 
 export const metadata = {
   title: "Épuration des eaux usées & Réutilisation - Solutions SME2D",
@@ -15,10 +11,7 @@ export const metadata = {
 const Page = () => {
   return (
     <>
-      {/* Header 
-      <HeaderOne /> */}
-
-      {/* Breadcrumb */}
+    {/* Breadcrumb */}
       <Breadcrumb
         title="Épuration Des Eaux-Usées"
         imageHeader="/assets/img/hero/epuration-des-eaux-Usees.svg"
@@ -49,12 +42,6 @@ const Page = () => {
         Img2="assets/img/service/epuration-des-eaux-Usees-2.svg"
         Img3="assets/img/service/epuration-des-eaux-Usees-3.svg"
       />
-
-      {/* Subscribe Section */}
-      {/* Subscribe One */}
-
-      {/* Footer */}
-      {/* <FooterAreaTwo /> */}
     </>
   );
 };

@@ -1,20 +1,8 @@
 import AboutTwo from "../components/AboutTwo";
-import AppointmentAreaTwo from "../components/AppointmentAreaTwo";
 import BlogAreaTwo from "../components/BlogAreaTwo";
-import CTAAreaTwo from "../components/CTAAreaTwo";
-import ClientAreaTwo from "../components/ClientAreaTwo";
-import CounterTwo from "../components/CounterTwo";
 import FaqAreaTwo from "../components/FaqAreaTwo";
-import FooterAreaTwo from "../components/FooterAreaTwo";
-import HeaderOne from "../components/HeaderOne";
 import HeroTwo from "../components/HeroTwo";
-import PortfolioTwo from "../components/PortfolioTwo";
-import PricingPlanTwo from "../components/PricingPlanTwo";
-import ProcessAreaTwo from "../components/ProcessAreaTwo";
 import ServiceAreaTwo from "../components/ServiceAreaTwo";
-import TeamAreaTwo from "../components/TeamAreaTwo";
-import WhyChooseUsOne from "../components/WhyChooseUsOne";
-import Preloader from "../helper/Preloader";
 import ProcessAreaOne from "../components/ProcessAreaOne";
 
 export const metadata = {
@@ -38,32 +26,8 @@ const page = () => {
         <AboutTwo />
       </div>
 
-      {/* Counter Two */}
-      <CounterTwo />
-
       {/* Process Area One ****/}
       <ProcessAreaOne />
-
-
-      {/* Process Area Two 
-      <ProcessAreaTwo />
-      */}
-
-      {/* CTA Area Two 
-      <CTAAreaTwo />
-      */}
-
-      {/* Pricing Plan Two 
-      <PricingPlanTwo />
-      /}
-      {/* Appointment Area Two 
-      <AppointmentAreaTwo />*/} 
-
-      {/* Team Area Two 
-      <TeamAreaTwo /> */}
-
-      {/* Client Area Two 
-      <ClientAreaTwo /> */}
 
       {/* Faq Area Two */}
       <FaqAreaTwo />
@@ -71,8 +35,6 @@ const page = () => {
       {/* Blog Area Two */}
       <BlogAreaTwo />
       
-      {/* Footer Area Two 
-      <FooterAreaTwo />*/}
     </> 
   );
 };

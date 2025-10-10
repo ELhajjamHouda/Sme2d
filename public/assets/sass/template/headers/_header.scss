@@ -27,6 +27,9 @@
   }
 }
 
+/* ============================= */
+/* MAIN MENU */
+/* ============================= */
 .main-menu {
   a {
     display: block;
@@ -35,10 +38,37 @@
     font-size: 18px;
     color: $body-color;
     font-family: $title-font;
+
     &:hover {
       color: $title-color;
     }
+
+    /* ===== Effet underline au hover ===== */
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: $theme-color;
+      transition: all 0.3s ease;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
   }
+
+  /* ===== underline ديال الصفحة الحالية (القوائم الرئيسية) ===== */
+  > ul > li.active-link > a {
+    color: $theme-color;
+  }
+
+  > ul > li.active-link > a::after {
+    width: 100%;
+  }
+}
 
   > ul {
     > li {
@@ -172,7 +202,7 @@
       }
     }
   }
-}
+
 /****header-top*****/
 .main-menu {
   a {
@@ -182,11 +212,17 @@
     font-family: $body-font;
     font-size: 18px;
     color: $title-color;
+
     &:hover {
-      color: $theme-color;
+      color: #4facfe; // hover
+      text-decoration: underline;
+    }
+
+    &.active-link { // الصفحة الحالية
+      color: #4facfe;
+      text-decoration: underline;
     }
   }
-
   > ul {
     > li {
       margin: 0 11px;
@@ -196,7 +232,8 @@
           color: $theme-color;
         }
         &:hover {
-          color: $theme-color;
+          color: #4facfe;
+          text-decoration: underline; // إذا بغيت تسطر عليه
         }
       }
     }
@@ -293,6 +330,18 @@
       display: block;
       margin: 0 0;
       padding: 0px 9px;
+
+      // ✅✅✅ هذا هو التصحيح اللي كيخلي الرابط الفرعي نشط ومسطر باللون الأزرق
+      &.active-link > a { 
+        color: #4facfe; 
+        text-decoration: underline; 
+        padding-left: 15px; 
+
+        &:before {
+            opacity: 1; 
+            left: 0;
+        }
+      }
 
       &.menu-item-has-children {
         > a:after {
@@ -698,256 +747,5 @@
 @include xs {
   .header-layout1 .sticky-wrapper {
     padding: 0;
-  }
-}
-
-/* Header 2 ---------------------------------- */
-.header-layout2 {
-  .header-top {
-    padding: 15px 0;
-  }
-  .header-navbar-logo {
-    display: none;
-  }
-  .menu-area {
-    background: $theme-color;
-    //background: linear-gradient(to right, #4facfe, #00f2fe)
-  }
-  .main-menu > ul > li > a {
-    padding: 16px 0;
-    color: $white-color;
-  }
-  .social-links {
-    gap: 25px;
-    a {
-      color: $white-color;
-    }
-  }
-  .sticky-wrapper.sticky {
-    .header-navbar-logo {
-      display: block;
-    }
-    .main-menu > ul > li > a {
-      padding: 31px 0;
-    }
-  }
-}
-@include md {
-  .header-layout2 {
-    .header-navbar-logo {
-      display: block;
-    }
-    .icon-btn {
-      background: $white-color;
-      color: $title-color;
-    }
-  }
-}
-@include xs {
-  .header-layout2 .header-top {
-    display: none;
-  }
-}
-
-/* Header 3 ---------------------------------- */
-.header-layout3 {
-  .sticky-wrapper {
-    background: $white-color;
-    &.sticky {
-      .header-navbar-logo {
-        margin-top: 25px;
-      }
-    }
-  }
-  .header-top {
-    background: $title-color;
-    padding: 12px 0;
-  }
-  .social-links {
-    position: relative;
-    padding-right: 20px;
-    &:after {
-      content: "";
-      position: absolute;
-      left: -20px;
-      right: 0;
-      bottom: -14px;
-      top: -15px;
-      background: rgba(255, 255, 255, 0.1);
-      z-index: -1;
-    }
-  }
-  .header-navbar-logo {
-    margin-top: 0;
-    padding: 15px 0;
-    padding-left: 60px;
-    position: absolute;
-    z-index: 3;
-  }
-}
-
-/* Header 4 ---------------------------------- */
-.header-search-wrap {
-  .search-form {
-    display: flex;
-    border: 1px solid $border-color;
-    padding: 3px 3px 3px 0;
-    border-radius: 5px;
-    align-items: center;
-    .form-control {
-      background: transparent;
-      height: 36px;
-      border: transparent;
-      border-right: 1px solid $border-color;
-      min-width: 480px;
-      @include ml {
-        min-width: 280px;
-      }
-      @include lg {
-        min-width: auto;
-      }
-    }
-    .form-select {
-      background-color: transparent;
-      line-height: 36px;
-      height: 36px;
-      border: transparent;
-      background-position: right 18px center;
-      min-width: 250px;
-      @include lg {
-        min-width: auto;
-      }
-    }
-    .icon-btn {
-      flex: none;
-    }
-  }
-}
-.header-user-wrap {
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .simple-icon {
-    display: flex;
-  }
-}
-.header-grid-wrap {
-  display: flex;
-  gap: 18px;
-  align-items: center;
-  .header-grid-text {
-    font-size: 11px;
-    font-weight: 500;
-    margin-bottom: 0;
-    margin-top: -0.3em;
-    display: block;
-    opacity: 0.4;
-  }
-  .header-grid-title {
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: -0.3em;
-    margin-top: -0.4em;
-    a {
-      color: inherit;
-      &:hover {
-        color: $theme-color;
-      }
-    }
-  }
-}
-.header-layout4 {
-  .header-top {
-    padding: 20px 0 0;
-  }
-  .navbar-right-desc {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    flex-wrap: wrap;
-    .icon {
-      height: 50px;
-      width: 50px;
-      line-height: 50px;
-      text-align: center;
-      position: relative;
-      &:after {
-        content: "";
-        position: absolute;
-        inset: 0;
-        border-radius: 50%;
-        background: $theme-color;
-        opacity: 0.1;
-      }
-    }
-    .navbar-right-desc-details {
-      .title {
-        font-size: 18px;
-        font-weight: 400;
-        display: block;
-        margin-bottom: -2px;
-      }
-      .link {
-        font-size: 20px;
-        font-weight: 700;
-        font-family: $title-font;
-      }
-    }
-    i {
-      margin-right: 10px;
-      transform: rotate(-45deg);
-    }
-    a {
-      color: $title-color;
-      &:hover {
-        color: $theme-color;
-      }
-    }
-  }
-  .menu-area {
-    .form-select {
-      height: 48px;
-      line-height: 48px;
-    }
-    .form-group {
-      > i {
-        right: 25px;
-        top: 18px;
-      }
-    }
-  }
-  .header-sticky-logo {
-    display: none;
-  }
-  .sticky-wrapper.sticky {
-    .header-sticky-none {
-      display: none !important;
-    }
-    .header-sticky-logo {
-      display: block;
-    }
-  }
-  @include lg {
-    .sticky-wrapper.sticky {
-      .header-lg-sticky-none {
-        display: none !important;
-      }
-    }
-  }
-  @include md {
-    .header-search-wrap .search-form {
-      .form-select {
-        display: none;
-      }
-    }
-    .sticky-wrapper.sticky .header-sticky-logo {
-      display: none;
-    }
   }
 }

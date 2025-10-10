@@ -41,43 +41,46 @@ const ContactArea = () => {
     <>
       {/* Informations de contact */}
       <div className="contact-area space">
-        <div className="container">
-          <div className="row gy-4 justify-content-center">
-            <div className="col-xxl-3 col-lg-4 col-md-6">
-              <div className="contact-info">
-                <div className="contact-info_icon">
-                  <i className="fas fa-map-marker-alt" />
-                </div>
-                <h6 className="contact-info_title">Adresse</h6>
-                <p className="contact-info_text">80 lotiss. Al Amane , El Alia</p>
-                <p className="contact-info_text">Mohammedia, Maroc</p>
-              </div>
-            </div>
-            <div className="col-xxl-3 col-lg-4 col-md-6">
-              <div className="contact-info">
-                <div className="contact-info_icon">
-                  <i className="fas fa-phone-alt" />
-                </div>
-                <h6 className="contact-info_title">Contact</h6>
-                <p className="contact-info_text">
-                  <a href="tel:(+212)661932162">(+212) 661 932 162</a>
-                </p>
-              </div>
-            </div>
-            <div className="col-xxl-3 col-lg-4 col-md-6">
-              <div className="contact-info">
-                <div className="contact-info_icon">
-                  <i className="fas fa-envelope" />
-                </div>
-                <h6 className="contact-info_title">E-mail</h6>
-                <p className="contact-info_text">
-                  <a href="mailto:contact@sme2d.com">contact@sme2d.com</a>
-                </p>
-              </div>
-            </div>
+  <div className="container">
+    <div className="row gy-4 justify-content-center">
+      <div className="col-xxl-3 col-lg-4 col-md-6">
+        <div className="contact-info">
+          <div className="contact-info_icon">
+            <i className="fas fa-map-marker-alt" />
           </div>
+          <h6 className="contact-info_title">Adresse</h6>
+          <p className="contact-info_text">80 lotiss. Al Amane , El Alia</p>
+          <p className="contact-info_text">Mohammedia, Maroc</p>
         </div>
       </div>
+
+      <div className="col-xxl-3 col-lg-4 col-md-6">
+        <div className="contact-info">
+          <div className="contact-info_icon">
+            <i className="fas fa-phone-alt" />
+          </div>
+          <h6 className="contact-info_title">Contact</h6>
+          <p className="contact-info_text">
+            <a href="tel:(+212)661932162">(+212) 661 932 162</a>
+          </p>
+        </div>
+      </div>
+
+      <div className="col-xxl-3 col-lg-4 col-md-6">
+        <div className="contact-info">
+          <div className="contact-info_icon">
+            <i className="fas fa-envelope" />
+          </div>
+          <h6 className="contact-info_title">E-mail</h6>
+          <p className="contact-info_text">
+            <a href="mailto:contact@sme2d.com">sme2d.sarl@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
       {/* Carte */}
       <div className="space-bottom">
@@ -96,7 +99,13 @@ const ContactArea = () => {
       {/* Formulaire de contact */}
       <div
         className="space-bottom bg-cover bg-center"
-        style={{ backgroundImage: "url('/assets/img/normal/faq-thumb-2-1.png')" }}
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('/assets/img/blog/email-back.jpg')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          paddingTop: "50px",  // espace en haut
+          paddingBottom: "50px", // espace en bas
+        }}
       >
         <div className="container">
           <div className="row justify-content-center">

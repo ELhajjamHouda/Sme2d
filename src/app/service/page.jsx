@@ -1,10 +1,6 @@
 import Breadcrumb from "../../components/Breadcrumb";
-import FooterAreaTwo from "../../components/FooterAreaTwo";
-import HeaderOne from "../../components/HeaderOne";
-import HeroThree from "../../components/HeroThree";
-import IntroAreaOne from "../../components/IntroAreaOne";
 import ServiceAreaOne_multi_img from "../../components/ServiceAreaOne_multi_img";
-import SubscribeOne from "../../components/SubscribeOne";
+import FaqAreaThree from "../../components/FaqAreaThree";
 import Preloader from "../../helper/Preloader";
 
 export const metadata = {
@@ -20,12 +16,6 @@ const page = () => {
       {/* Preloader */}
       <Preloader />
 
-      {/* Header one
-      <HeaderOne /> */}
-
-      {/* Hero Three 
-      <HeroThree /> */}
-
       {/* Breadcrumb */}
       <Breadcrumb
        title="Service"
@@ -35,16 +25,10 @@ const page = () => {
 
       {/* Service Area One */}
       <ServiceAreaOne_multi_img />
+      
+      {/* FaqAreaThree */}
+      < FaqAreaThree/>
 
-      {/* IntroAreaOne */}
-      <IntroAreaOne />
-
-        {/* FaqAreaThree */}
-        FaqAreaThree
-      {/* Subscribe One */}
-
-      {/* Footer Area One 
-      <FooterAreaTwo /> */}
     </>
   );
 };
