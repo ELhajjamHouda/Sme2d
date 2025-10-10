@@ -1,6 +1,5 @@
 
 
-import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 const CounterTwo = () => {
   return (

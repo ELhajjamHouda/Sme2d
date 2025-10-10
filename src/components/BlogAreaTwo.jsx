@@ -1,9 +1,13 @@
 
-
+"use client"
 import { DiAptana } from "react-icons/di";
 import { FaUser, FaArrowRight } from "react-icons/fa"; 
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const BlogAreaTwo = () => {
   return (
@@ -22,6 +26,7 @@ const BlogAreaTwo = () => {
 
         <div className="row global-carousel blog-slider slider-shadow">
           <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
             loop={true}
             navigation={{
               nextEl: ".testimonialOne-button-next",

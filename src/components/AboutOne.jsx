@@ -3,7 +3,6 @@ import { DiAptana } from "react-icons/di";
 import { FaUser, FaArrowRight } from "react-icons/fa"; 
 import Link from "next/link";
 import React from "react";
-import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 const AboutOne = () => {
   return (
