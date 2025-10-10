@@ -41,15 +41,6 @@ const ProcessAreaOne = () => {
                 src="/assets/img/icon/logo-1.png"
                 alt="sme2d"
               />
-              {/* <div className="process-counter-icon">
-                <h2 className="process-counter-number">
-                  <TrackVisibility once>
-                    {({ isVisible }) =>
-                      isVisible ? <CountUp delay={0} start={0} end={1} /> : 0
-                    }
-                  </TrackVisibility>
-                </h2>
-              </div> */}
               <h4 className="process-card-title">Consultez-nous dès maintenant</h4>
               <p className="process-card-text">
                 Prenez contact avec nous pour recevoir un devis gratuit.
@@ -65,15 +56,6 @@ const ProcessAreaOne = () => {
                 src="/assets/img/icon/logo-2.png"
                 alt="sme2d"
               />
-              {/* <div className="process-counter-icon">
-                <h2 className="process-counter-number">
-                  <TrackVisibility once>
-                    {({ isVisible }) =>
-                      isVisible ? <CountUp delay={0} start={0} end={2} /> : 0
-                    }
-                  </TrackVisibility>
-                </h2>
-              </div> */}
               <h4 className="process-card-title">Connaître vos besoins</h4>
               <p className="process-card-text">
                 Cette étape est primordiale : il est essentiel pour nous de bien cerner ce dont nous aurons besoin pour concrétiser votre projet.
@@ -89,15 +71,6 @@ const ProcessAreaOne = () => {
                 src="/assets/img/icon/logo-3.png"
                 alt="sme2d"
               />
-              {/* <div className="process-counter-icon">
-                <h2 className="process-counter-number">
-                  <TrackVisibility once>
-                    {({ isVisible }) =>
-                      isVisible ? <CountUp delay={0} start={0} end={3} /> : 0
-                    }
-                  </TrackVisibility>
-                </h2>
-              </div> */}
               <h4 className="process-card-title">Démarrage du projet</h4>
               <p className="process-card-text">
                 Une fois les besoins bien identifiés, nous entamons le travail avec rigueur et professionnalisme.
@@ -108,15 +81,6 @@ const ProcessAreaOne = () => {
           {/* Étape 4 */}
           <div className="col-lg-3 col-md-6 process-card-wrap">
             <div className="process-card">
-              {/* <div className="process-counter-icon">
-                <h2 className="process-counter-number">
-                  <TrackVisibility once>
-                    {({ isVisible }) =>
-                      isVisible ? <CountUp delay={0} start={0} end={4} /> : 0
-                    }
-                  </TrackVisibility>
-                </h2>
-              </div> */}
               <img
                 className="about1-shape-img-1"
                 src="/assets/img/icon/logo-4.png"

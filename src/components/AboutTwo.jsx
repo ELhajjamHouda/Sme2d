@@ -1,6 +1,4 @@
 "use client";
-import TrackVisibility from "react-on-screen";
-import CountUp from "react-countup";
 const AboutTwo = () => {
   return (
     <div className="space-top">
@@ -15,16 +13,6 @@ const AboutTwo = () => {
               <div className="about-counter-wrap jump-reverse">
                 <img src="assets/img/icon/about_icon2-1.svg" alt="sme2d" />
                 <h3 className="about-counter">
-                  {/* <TrackVisibility once>
-                    {({ isVisible }) =>
-                      isVisible && (
-                        <span className="counter-number">
-                          <CountUp delay={0} start={0} end={5} />
-                          k+
-                        </span>
-                      )
-                    }
-                  </TrackVisibility> */}
                 </h3>
                 <h4 className="about-counter-text">Expertise technique</h4>
               </div>
@@ -37,11 +25,6 @@ const AboutTwo = () => {
                 <span className="sub-title">À propos de nous</span>
                 <h2 className="sec-title">
                   Le meilleur travail avec une bonne qualité pour un bon avenir!{" "}
-                  {/* <img
-                    className="title-bg-shape shape-center"
-                    src="assets/img/bg/title-bg-shape.png"
-                    alt="sme2d"
-                  /> */}
                 </h2>
                 <p className="sec-text">
                   SME2D, des solutions fiables pour le traitement de l’eau

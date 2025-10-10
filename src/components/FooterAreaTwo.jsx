@@ -2,38 +2,17 @@ import Link from "next/link";
 
 const FooterAreaTwo = () => {
   return (
-    <footer
-      className="footer-wrapper footer-layout2"
-      style={{
-        background: "linear-gradient(to bottom, #e6f0ff, #4facfe)", // 🎨 Nouveau dégradé
-      }}
-    >
+<footer
+  className="footer-wrapper footer-layout2"
+  style={{
+    background: `
+      linear-gradient(to bottom, #e6f0ff, #4facfe),
+      url('/assets/img/bg/footer-top-bg1-1.png') no-repeat center top
+    `,
+    backgroundSize: "cover", 
+  }}
+>
       <div className="container">
-        {/*
-        <div className="footer-top-2">
-          <div className="footer-logo">
-            <Link href="/">
-              <img src="assets/img/logo-white.jpg" alt="sme2d" />
-            </Link>
-          </div>
-          <h3 className="footer-top-title text-white">
-            Subscribe our newsletter for updates
-          </h3>
-          <form className="newsletter-form">
-            <div className="form-group">
-              <input
-                className="form-control"
-                type="email"
-                placeholder="Your Email Address"
-                required=""
-              />
-            </div>
-            <button type="submit" className="btn">
-              <i className="fas fa-arrow-right" />
-            </button>
-          </form>
-        </div>
-        */}
         <div className="widget-area">
           <div className="row justify-content-between">
             <div className="col-md-6 col-xl-3">
@@ -42,20 +21,6 @@ const FooterAreaTwo = () => {
                 <p className="footer-text mb-30">
                  SME2D, votre partenaire pour des solutions innovantes et durables dans le traitement et l’épuration de l’eau.
                 </p>
-                {/* <div className="social-btn style3">
-                  <Link href="https://www.instagram.com/" tabIndex={-1}>
-                    <i className="fab fa-instagram" />
-                  </Link>
-                  <Link href="https://linkedin.com/" tabIndex={-1}>
-                    <i className="fab fa-linkedin-in" />
-                  </Link>
-                  <Link href="https://twitter.com/" tabIndex={-1}>
-                    <i className="fab fa-twitter" />
-                  </Link>
-                  <Link href="https://facebook.com/" tabIndex={-1}>
-                    <i className="fab fa-facebook-f" />
-                  </Link>
-                </div> */}
               </div>
             </div>
             <div className="col-md-6 col-xl-auto">
@@ -72,9 +37,6 @@ const FooterAreaTwo = () => {
                     <li>
                       <Link href="/service">Services</Link>
                     </li>
-                    {/* <li>
-                      <Link href="/contact">xxxxx</Link>
-                    </li> */}
                     <li>
                       <Link href="/contact">Projets</Link>
                     </li>
@@ -91,22 +53,22 @@ const FooterAreaTwo = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <Link href="/service">Épuration Des Eaux Usées</Link>
+                      <Link href="/epuration-des-eaux-usees">Épuration Des Eaux Usées</Link>
                     </li>
                     <li>
-                      <Link href="/service">Relevage et Pompage des Eaux</Link>
+                      <Link href="/relevage-et-pompage-des-eaux">Relevage et Pompage des Eaux</Link>
                     </li>
                     <li>
-                      <Link href="/service">Traitement de l'air</Link>
+                      <Link href="/traitement-de-l-air">Traitement de l'air</Link>
                     </li>
                     <li>
-                      <Link href="/service">Électricité et Automatisme</Link>
+                      <Link href="/electricite-et-automatisme">Électricité et Automatisme</Link>
                     </li>
                     <li>
-                      <Link href="/service">Service après-vente et exploitation</Link>
+                      <Link href="/service-apres-vente-et-exploitation">Service après-vente et exploitation</Link>
                     </li>
                     <li>
-                      <Link href="/service">Bureau d’études intégré</Link>
+                      <Link href="/bureau-d-etudes-integre">Bureau d’études intégré</Link>
                     </li>
                   </ul>
                 </div>

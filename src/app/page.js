@@ -34,7 +34,6 @@ const page = () => {
 
       {/* Blog Area Two */}
       <BlogAreaTwo />
-      
     </> 
   );
 };

@@ -55,37 +55,6 @@ const AboutOne = () => {
                 </p>
               </div>
               <div className="row gy-4 justify-content-xl-between justify-content-end align-items-center flex-row-reverse">
-                {/* <div className="col-lg-auto">
-                  <div className="about-year-wrap">
-                    <div
-                      className="about-year-mask-wrap"
-                      style={{
-                        maskImage: "url(assets/img/bg/about_counter-bg1-1.png)",
-                      }}
-                    >
-                      <img
-                        src="assets/img/icon/about_icon1-1.svg"
-                        alt="sme2d"
-                      />
-                      <h3 className="about-year-wrap-title">
-                      <TrackVisibility once>
-                            {({ isVisible }) =>
-                              isVisible && (
-                                <span className="counter-number">
-                                  <CountUp delay={0} start={0} end={25} />
-                                  +
-                                </span>
-                              )
-                            }
-                          </TrackVisibility>
-                      
-                      </h3>
-                      <p className="about-year-wrap-text">
-                        Years of experience
-                      </p>
-                    </div>
-                  </div>
-                </div> */}
                 <div className="col-xl-auto col-lg-6">
                   <div className="checklist">
                     <ul>
