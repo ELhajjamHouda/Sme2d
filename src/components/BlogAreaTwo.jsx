@@ -1,4 +1,5 @@
-"use client";
+
+
 import { DiAptana } from "react-icons/di";
 import { FaUser, FaArrowRight } from "react-icons/fa"; 
 import Link from "next/link";

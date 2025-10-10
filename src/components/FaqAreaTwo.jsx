@@ -1,4 +1,5 @@
-"use client";
+
+
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 

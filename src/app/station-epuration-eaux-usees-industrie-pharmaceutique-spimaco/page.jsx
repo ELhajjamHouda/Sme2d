@@ -1,4 +1,4 @@
-"use client";
+
 
 import Breadcrumb from "../../components/Breadcrumb";
 import BlogAreaList from "../../components/BlogAreaList";

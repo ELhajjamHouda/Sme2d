@@ -1,6 +1,5 @@
 import Breadcrumb from "../../components/Breadcrumb";
 import ContactArea from "../../components/ContactArea";
-import Preloader from "../../helper/Preloader";
 
 export const metadata = {
   title: "Contact || SME2D - Réparation Auto & Services Automobile",
@@ -12,8 +11,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      {/* Preloader */}
-       <Preloader />
+
 
        {/* Breadcrumb */}
         <Breadcrumb

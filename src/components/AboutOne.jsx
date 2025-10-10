@@ -55,6 +55,7 @@ const AboutOne = () => {
                 </p>
               </div>
               <div className="row gy-4 justify-content-xl-between justify-content-end align-items-center flex-row-reverse">
+                
                 <div className="col-xl-auto col-lg-6">
                   <div className="checklist">
                     <ul>

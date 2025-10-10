@@ -1,4 +1,5 @@
-"use client";
+
+
 const AboutTwo = () => {
   return (
     <div className="space-top">

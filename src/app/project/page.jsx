@@ -1,5 +1,3 @@
-"use client";
-
 import Preloader from "../../helper/Preloader";
 import HeaderOne from "../../components/HeaderOne";
 import Breadcrumb from "../../components/Breadcrumb"; 
