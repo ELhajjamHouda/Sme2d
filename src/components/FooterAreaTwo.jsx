@@ -6,7 +6,7 @@ const FooterAreaTwo = () => {
   className="footer-wrapper footer-layout2"
   style={{
     background: `
-      linear-gradient(to bottom, #e6f0ff, #4facfe),
+      linear-gradient(to bottom, #e6f0ff, #3EA5D0),
       url('/assets/img/bg/footer-top-bg1-1.png') no-repeat center top
     `,
     backgroundSize: "cover", 

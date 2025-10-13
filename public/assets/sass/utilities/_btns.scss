@@ -7,8 +7,8 @@
     border: none;
     border-radius: 5px !important;
     text-align: center;
-    // background: linear-gradient(to right, #4facfe, #e6f0ff);XXXXX
-        background-color: #4facfe; 
+    // background: linear-gradient(to right, #3EA5D0, #e6f0ff);XXXXX
+        background-color: #3EA5D0; 
     color: $white-color;
     font-family: $title-font;
     font-size: 16px;
@@ -132,7 +132,7 @@
     }
     &.style-border3 {
         color: $title-color;
-        border: 1px solid #4facfe;
+        border: 1px solid #3EA5D0;
         background: transparent;
         padding: 23px 30px 19px;
         &:before,

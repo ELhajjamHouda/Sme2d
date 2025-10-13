@@ -214,12 +214,12 @@
     color: $title-color;
 
     &:hover {
-      color: #4facfe; // hover
+      color: #3EA5D0; // hover
       text-decoration: underline;
     }
 
     &.active-link { // الصفحة الحالية
-      color: #4facfe;
+      color: #3EA5D0;
       text-decoration: underline;
     }
   }
@@ -232,7 +232,7 @@
           color: $theme-color;
         }
         &:hover {
-          color: #4facfe;
+          color: #3EA5D0;
           text-decoration: underline; // إذا بغيت تسطر عليه
         }
       }
@@ -333,7 +333,7 @@
 
       // ✅✅✅ هذا هو التصحيح اللي كيخلي الرابط الفرعي نشط ومسطر باللون الأزرق
       &.active-link > a { 
-        color: #4facfe; 
+        color: #3EA5D0; 
         text-decoration: underline; 
         padding-left: 15px; 
 

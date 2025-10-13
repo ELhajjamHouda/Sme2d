@@ -81,7 +81,7 @@
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  background: linear-gradient(to right, #4facfe, #e6f0ff); /* dégradé */
+  background: linear-gradient(to right, #3EA5D0, #e6f0ff); /* dégradé */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,7 +106,7 @@
 .process-card {
   text-align: center;
   .process-card-icon {
-     background: linear-gradient(to right, #4facfe, #e6f0ff);
+     background: linear-gradient(to right, #3EA5D0, #e6f0ff);
     transition: 0.4s;
     border-radius: 50%;
     height: 80px;

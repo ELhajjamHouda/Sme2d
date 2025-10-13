@@ -1,7 +1,7 @@
 // 'use client'
 import BootstrapInit from "../helper/BootstrapInit";
 import "./font.css";
-import Preloader from "../helper/Preloader";
+// import Preloader from "../helper/Preloader";
 import HeaderOne from "../components/HeaderOne";
 import FooterAreaTwo from "../components/FooterAreaTwo";
 import "./globals.scss";
@@ -24,8 +24,8 @@ export default function RootLayout({ children }) {
       <body suppressHydrationWarning={true}>
         
 
-        {/* Preloader */}
-        <Preloader />
+        {/* Preloader 
+        <Preloader />*/}
 
         {/* Header Two */}
         <HeaderOne />
