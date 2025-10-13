@@ -1,6 +1,18 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
+// Handle CORS preflight requests
+export async function OPTIONS(req) {
+  return new NextResponse(null, {
+    status: 200,
+    headers: {
+      'Access-Control-Allow-Origin': 'https://sme2d.vercel.app',
+      'Access-Control-Allow-Methods': 'POST, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type',
+    },
+  });
+}
+
 export async function POST(req) {
   try {
     const { name, email, number, message } = await req.json();
@@ -27,9 +39,22 @@ export async function POST(req) {
       `,
     });
 
-    return NextResponse.json({ success: true, info });
+    return NextResponse.json({ success: true, info }, {
+      headers: {
+        'Access-Control-Allow-Origin': 'https://sme2d.vercel.app',
+        'Access-Control-Allow-Methods': 'POST, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type',
+      },
+    });
   } catch (error) {
     console.error(error);
-    return NextResponse.json({ success: false, error: error.message }, { status: 500 });
+    return NextResponse.json({ success: false, error: error.message }, { 
+      status: 500,
+      headers: {
+        'Access-Control-Allow-Origin': 'https://sme2d.vercel.app',
+        'Access-Control-Allow-Methods': 'POST, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type',
+      },
+    });
   }
 }
