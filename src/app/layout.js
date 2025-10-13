@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         
 
         {/* Preloader */}
-        <Preloader />
+        {/* <Preloader /> */}
 
         {/* Header Two */}
         <HeaderOne />
